@@ -14,7 +14,7 @@
     <div class="container">
         <div class="col-md-3">
             <div class="leftSide">
-               <h3 class="module_title">Facilities</h3>
+               <h3 class="module_title">Placement</h3>
                <div class="mod-menu">
                 <ul class="nav">
                    <li>
@@ -31,7 +31,7 @@
         </div>
         <div class="col-md-9">
             <div class="rightside">
-                <h3 class="item_title">Class Rooms</h3>
+                <h3 class="item_title">About T&P</h3>
                 <div class="about">
                 
 				<p>
