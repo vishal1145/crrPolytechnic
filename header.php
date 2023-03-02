@@ -18,16 +18,16 @@
 		<div class="collapse navbar-collapse links" id="navbarNav">
 			<ul class="navbar-nav">
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="./index.php">Home</a>
+					<a class="nav-link menu__link " href="./index.php">Home</a>
 				</li>
 				<li class="nav-item menu__item">
 					<a class="nav-link menu__link " href="./about.php">About</a>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="#">Academics</a>
+					<a class="nav-link menu__link " href="#">Academics</a>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="#">Departments</a>
+					<a class="nav-link menu__link " href="#">Departments</a>
 				</li>
 				<li class="nav-item menu__item">
 					<div class="dropdown show">
@@ -49,7 +49,7 @@
 					<a class="nav-link menu__link" href="./campus.php">Campus life</a>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="#contact">Contact us</a>
+					<a class="nav-link menu__link " href="#contact">Contact us</a>
 				</li>
 			</ul>
 		</div>

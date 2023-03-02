@@ -437,7 +437,8 @@ a.menu__link {
 .about{
     background: rgba(238, 238, 238, 0.88);
 	background-size: cover;
-	padding: 4% 7% 2% 7%;
+	padding: 4% 7% 6% 7%;
+	margin: 20px 0;
 	}
 .about h2 {
     text-transform: uppercase;
@@ -3028,17 +3029,32 @@ img{
 	color: #000000;
 	margin-top: 5px;
 	padding: 10px 0;
+	display: flex;
+	gap: 10px;
+	align-items: center;
 }
 .mod-menu ul li a span{
 	margin-right: 12px;
 	font-size: 10px;
 
 }
-.item-title{
+.item_title{
 	margin: 10px 0 20px;
 	font-size: 20px;
 	font-weight: 600;
 }
 .fordotted{
 	list-style: disc !important;
+}
+.about a{
+	float: right;
+	padding: 22px;
+	color: #000000;
+	font-weight: 900;
+}
+th{
+	text-align: center;
+}
+td{
+	text-align: center;
 }

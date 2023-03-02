@@ -164,24 +164,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					and a commitment to value based education. We believe in working honestly and sincerely, in building
 					trust and in maintaining a long lasting relationship with the Society. Our team comprises of highly
 					qualified and motivated faculty. Core competence and a friendly but efficient work culture play an
-					important role in our overall achievements.</p>
-				<p>The College is situated near Vatluru railway gate in Eluru, the Head Quarters of West Godavari
-					district. It is surrounded by beautiful paddy fields and is on Chennai-Howrah highway and train
-					route. A large number of buses and trains run via this town. It is easily accessible from any part
-					of the country by rail as well as road.</p>
-				<p>The College is located in its own sprawling campus with an area of 11.19 acres. Its magnanimous
-					infrastructure and greenery attracts the attention of people who pass by. The vast green campus
-					housing several Departments provides a stimulating environment to the high caliber staff and
-					students of the institution.
-					The Campus at Vatluru is a place where students from all walks of life are under a single umbrella
-					pursuing their Diploma course.
+					important role in our overall achievements.
 				</p>
-				<h2>vision</h2>
-				<p>To switch on the light of Technology amidst the rice bowl of India by taking and giving innovative
-					technical ideas.</p>
-				<h2> MISSION</h2>
-				<p>To impart technical knowledge and skills by users modern engineering tools, to teach ethical and
-					professional values and to facilitate. Industry-institute interaction.</p>
+				<a href="./about.php">Read More...</a>
+				
 
 			</div>
 			<div class="clearfix"></div>
@@ -377,39 +363,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</figure>
 						</a>
 					</div>
-					<!-- <div class="col-md-4 col1 gallery-grid">
-						<a href="images/g7.jpg" class="b-link-stripe b-animate-go  thickbox">
-						<figure class="effect-bubba">
-							<img class="img-responsive" src="images/campus3.jpg" alt="">
-							<figcaption>
-								<h4 class="gal">Education Hub</h4>
-								<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>	
-							</figcaption>			
-						</figure>
-						</a>
-					</div> -->
-					<!-- <div class="col-md-4 col1 gallery-grid">
-						<a href="images/g8.jpg" class="b-link-stripe b-animate-go  thickbox">
-						<figure class="effect-bubba">
-							<img class="img-responsive" src="images/campus4.jpg" alt="">
-							<figcaption>
-								<h4 class="gal">Education Hub</h4>
-								<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>	
-							</figcaption>			
-						</figure>
-						</a>
-					</div>
-					<div class="col-md-4 col1 gallery-grid">
-						<a href="images/g9.jpg" class="b-link-stripe b-animate-go  thickbox">
-						<figure class="effect-bubba">
-							<img class="img-responsive" src="images/g9.jpg" alt="">
-							<figcaption>
-								<h4 class="gal">Education Hub</h4>
-								<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live forever.” </p>	
-							</figcaption>			
-						</figure>
-						</a>
-					</div> -->
+				
 					<div class="clearfix"> </div>
 				</div>
 			</div>
