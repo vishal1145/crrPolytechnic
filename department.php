@@ -19,43 +19,43 @@
                    <li>
                         <a href="">
                             <span><i class="fa-solid fa-play"></i></span>
-                            CIVIL ENGINEERING
+                            about department
                         </a>
                    </li>
                    <li>
                         <a href="">
                             <span><i class="fa-solid fa-play"></i></span>
-                            COMPUTER ENGINEERING 120
+                            teaching faculty
                         </a>
                    </li>
                    <li>
                         <a href="">
                             <span><i class="fa-solid fa-play"></i></span>
-                            ELECTRONICS AND COMMUNICATION ENGINEERING
+                            non-teaching faculty
                         </a>
                    </li>
                    <li>
                         <a href="">
                             <span><i class="fa-solid fa-play"></i></span>
-                            ELECTRICAL AND ELECTRONICS ENGINEERING
+                            student nr
                         </a>
                    </li>
                    <li>
                         <a href="" style="display:flex; gap:10px;">
                             <span><i class="fa-solid fa-play"></i></span>
-                            MECHANICAL ENGINEERING 120
+                            Infrastructure
                         </a>
                    </li>
                    <li>
                         <a href="">
                             <span><i class="fa-solid fa-play"></i></span>
-                            ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING ENGINEERING
+                            gallery
                         </a>
                    </li>
                    <li>
                         <a href="">
                             <span><i class="fa-solid fa-play"></i></span>
-                            COMMUNICATION AND COMPUTER NETWORKS ENGINEERING
+                            curriculum
                         </a>
                    </li>
                 </ul>

@@ -24,10 +24,41 @@
 					<a class="nav-link menu__link " href="./about.php">About</a>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link " href="./academy.php">Academics</a>
+					<!-- <a class="nav-link menu__link " href="./academy.php">Academics</a> -->
+					<div class="dropdown show">
+					<a class="nav-link menu__link btn btn-secondary dropdown-toggle" href="./facilities.php">
+					Academics
+						<i class="fa fa-angle-down"></i>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">Courses offered</a>
+						<a class="dropdown-item" href="#">Curricillum</a>
+						<a class="dropdown-item" href="#">Results</a>
+						<a class="dropdown-item" href="#">Notification</a>
+						<a class="dropdown-item1" href="#">Polycet Previous Papers</a>
+
+					</div>
+					</div>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link " href="./department.php">Departments</a>
+					<!-- <a class="nav-link menu__link " href="./department.php">Departments</a> -->
+					<div class="dropdown show">
+					<a class="nav-link menu__link btn btn-secondary dropdown-toggle" href="./facilities.php">
+					Departments
+						<i class="fa fa-angle-down"></i>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">CIVIL ENGINEERING</a>
+						<a class="dropdown-item" href="#">COMPUTER ENGINEERING 120</a>
+						<a class="dropdown-item" href="#">ELECTRONICS AND COMMUNICATION ENGINEERING</a>
+						<a class="dropdown-item" href="#">ELECTRICAL AND ELECTRONICS ENGINEERING</a>
+						<a class="dropdown-item" href="#">MECHANICAL ENGINEERING 120</a>
+						<a class="dropdown-item" href="#">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING ENGINEERING</a>
+						<a class="dropdown-item1" href="#">COMMUNICATION AND COMPUTER NETWORKS ENGINEERING</a>
+
+
+					</div>
+					</div>
 				</li>
 				<li class="nav-item menu__item">
 					<div class="dropdown show">
