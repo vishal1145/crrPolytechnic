@@ -24,10 +24,10 @@
 					<a class="nav-link menu__link " href="./about.php">About</a>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link " href="#">Academics</a>
+					<a class="nav-link menu__link " href="./academy.php">Academics</a>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link " href="#">Departments</a>
+					<a class="nav-link menu__link " href="./department.php">Departments</a>
 				</li>
 				<li class="nav-item menu__item">
 					<div class="dropdown show">
