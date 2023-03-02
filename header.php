@@ -26,7 +26,7 @@
 				<li class="nav-item menu__item">
 					<!-- <a class="nav-link menu__link " href="./academy.php">Academics</a> -->
 					<div class="dropdown show">
-					<a class="nav-link menu__link btn btn-secondary dropdown-toggle" href="./facilities.php">
+					<a class="nav-link menu__link btn btn-secondary dropdown-toggle" href="./academy.php">
 					Academics
 						<i class="fa fa-angle-down"></i>
 					</a>
@@ -43,7 +43,7 @@
 				<li class="nav-item menu__item">
 					<!-- <a class="nav-link menu__link " href="./department.php">Departments</a> -->
 					<div class="dropdown show">
-					<a class="nav-link menu__link btn btn-secondary dropdown-toggle" href="./facilities.php">
+					<a class="nav-link menu__link btn btn-secondary dropdown-toggle" href="./department.php">
 					Departments
 						<i class="fa fa-angle-down"></i>
 					</a>
@@ -85,7 +85,7 @@
 			</ul>
 		</div>
 </div>
-<!-- <script>
+<script>
 				const $dropdown = $(".dropdown");
 				const $dropdownToggle = $(".dropdown-toggle");
 				const $dropdownMenu = $(".dropdown-menu");
@@ -110,7 +110,7 @@
 					$dropdown.off("mouseenter mouseleave");
 				}
 				});
-</script> -->
+</script>
 
 </body>
 </html>
