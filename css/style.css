@@ -2978,3 +2978,16 @@ img{
 	/* position: fixed; */
 
 }
+
+.kuch{
+	color: white !important;
+	display: block;
+	border-bottom: 1px solid;
+    padding: 1px 20px;
+}
+
+.dropdown-menu{
+	background-color: #621360 !important;
+	width: 100% !important;
+	border-bottom: 1px solid !important;
+}

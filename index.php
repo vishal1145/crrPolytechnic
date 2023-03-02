@@ -106,7 +106,16 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<a class="nav-link menu__link scroll" href="#">Departments</a>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="#facility">Facilities</a>
+					<div class="dropdown show">
+					<a class="nav-link menu__link scroll btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#facility">Facilities
+						<i class="fa fa-angle-down"></i>
+					</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> 
+							<a class="dropdown-item kuch" href="#">A</a><br>
+							<a class="dropdown-item kuch" href="#">Another action</a><br>
+							<a class="dropdown-item kuch" href="#">Something else</a><br>
+						</div>
+					</div>
 				</li>
 				<li class="nav-item menu__item">
 					<a class="nav-link menu__link scroll" href="#">Placements</a>
@@ -844,6 +853,31 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			*/
 			$().UItoTop({ easingType: 'easeOutQuart' });
 		});
+
+			const $dropdown = $(".dropdown");
+			const $dropdownToggle = $(".dropdown-toggle");
+			const $dropdownMenu = $(".dropdown-menu");
+			const showClass = "show";
+			$(window).on("load resize", function() {
+			if (this.matchMedia("(min-width: 768px)").matches) {
+				$dropdown.hover(
+				function() {
+					const $this = $(this);
+					$this.addClass(showClass);
+					$this.find($dropdownToggle).attr("aria-expanded", "true");
+					$this.find($dropdownMenu).addClass(showClass);
+				},
+				function() {
+					const $this = $(this);
+					$this.removeClass(showClass);
+					$this.find($dropdownToggle).attr("aria-expanded", "false");
+					$this.find($dropdownMenu).removeClass(showClass);
+				}
+				);
+			} else {
+				$dropdown.off("mouseenter mouseleave");
+			}
+			});
 	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<!-- //smooth scrolling -->
