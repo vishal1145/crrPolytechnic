@@ -82,54 +82,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 
 <body>
-	<div class="hlo">
-		<div class="d-flex clgLogo">
-			<img src="./clgImages/CRRlogo.jpeg" alt="">
-			<div class="text-center navbarClgName">
-				<h2>Sir C.R.R. Polytechnic</h2>
-				<p>VATLURU, ELURU,</p>
-				<p>ANDHRA PRADESH 534007</p>
-			</div>
-		</div>
-		<div class="collapse navbar-collapse links" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="./index.html">Home</a>
-				</li>
-				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="#about">About</a>
-				</li>
-				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="#">Academics</a>
-				</li>
-				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="#">Departments</a>
-				</li>
-				<li class="nav-item menu__item">
-					<div class="dropdown show">
-					<a class="nav-link menu__link scroll btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#facility">Facilities
-						<i class="fa fa-angle-down"></i>
-					</a>
-						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> 
-							<a class="dropdown-item kuch" href="#">A</a><br>
-							<a class="dropdown-item kuch" href="#">Another action</a><br>
-							<a class="dropdown-item kuch" href="#">Something else</a><br>
-						</div>
-					</div>
-				</li>
-				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="#">Placements</a>
-				</li>
-				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="#">Campus life</a>
-				</li>
-				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="#contact">Contact us</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-
+	<?php include 'header.php'; ?>
 	<div class="header" id="home">
 
 		<div class="logo">
@@ -137,48 +90,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<!-- <h1>C.R.R. POLYTECHNIC</h1> -->
 			</a>
 		</div>
-		<!-- navigation -->
-		<!-- <div class="ban-top-con">
-			<div class="top_nav_left">
-				<nav class="navbar navbar-default navBar">
-					<div class="container-fluid">
-						Brand and toggle get grouped for better mobile display
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-								data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-						</div>
-						Collect the nav links, forms, and other content for toggling
-						<div class="collapse navbar-collapse menu--shylock headerLinks"
-							id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav menu__list">
-								<li class="active menu__item menu__item--current"><a class="menu__link"
-										href="index.html">Home <span class="sr-only">(current)</span></a></li>
-								<li class=" menu__item"><a class="menu__link scroll" href="#about">About</a></li>
-								<li class=" menu__item"><a class="menu__link scroll" href="#management">Academics</a>
-								</li>
-								<li class=" menu__item"><a class="menu__link scroll" href="#activities">Departments</a>
-								</li>
-								<li class=" menu__item"><a class="menu__link scroll" href="#faculties">Facilities</a>
-								</li>
-								<li class=" menu__item"><a class="menu__link scroll" href="#contact">Placements</a></li>
-								<li class=" menu__item"><a class="menu__link scroll" href="#contact">Campus life</a>
-								</li>
-								<li class=" menu__item"><a class="menu__link scroll" href="#contact">Contact us</a></li>
-
-							</ul>
-						</div>
-					</div>
-				</nav>
-
-			</div>
-			<div class="clearfix"></div>
-		</div> -->
-		<!-- //navigation -->
+		
 		<!-- Slider -->
 		<div class="slider">
 			<div class="callbacks_container">
@@ -741,116 +653,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 		<div class="clearfix"></div>
 	</div>
-	<!--//contact-->
-	<!--//main-content-->
-
-	<!--footer-->
-	<!-- <div class="w3l-footer">
-		<div class="container">
-			<div class="left-w3">
-				<a href="#">Sir C.R.R. Polytechnic</a>
-			</div>
-			<div class="right-social">
-				<i class="fa fa-facebook-square" aria-hidden="true"></i>
-				<i class="fa fa-twitter-square" aria-hidden="true"></i>
-				<i class="fa fa-google-plus-square" aria-hidden="true"></i>
-			</div>
-			<div class="clearfix"></div>
-
-
-			<div class="footer-container">
-				<div class="quick">
-					<h3>Quick links</h3>
-					<a href="#">SBTET Notifications</a>
-					<a href="#">SBTET Notifications</a>
-				</div>
-				<div class="quick">
-					<h3>Connect with Us</h3>
-					<a href="#">Twitter</a>
-					<a href="#">Facebook
-					</a>
-					<a href="#">Instagram</a>
-				</div>
-				<div class="quick">
-					<h3>Mailing Address</h3>
-					<a href="#">123 Anywhere St., Any City</a>
-					<a href="#">State, Country 12345</a>
-					<h3>Email Address</h3>
-					<a href="#">CRR@gmail.com</a>
-					<a href="#">State, Country 12345</a>
-					<h3>Phone Number</h3>
-					<a href="#">(123) 456 7890</a>
-					<a href="#">State, Country 12345</a>
-				</div>
-			</div>
-
-
-			<div class="footer-nav">
-				<ul>
-					<li><a class="menu__link scroll" href="#home">home</a></li>
-					<li><a class="menu__link scroll" href="#about">about</a></li>
-					<li><a class="menu__link scroll" href="#management">management</a></li>
-					<li><a class="menu__link scroll" href="#activities">activities</a></li>
-					<li><a class="menu__link scroll" href="#faculties">faculties</a></li>
-					<li><a class="menu__link scroll" href="#contact">contact</a></li>
-				</ul>
-			</div>
-			<div class="copyright-agile">
-				<p>&copy; Designed by Aacharya. All rights resrved by Sir CRR Polytech @2023 <a
-						href="https://www.aacharya.net/">Aacharya</a></p>
-			</div>
-		</div>
-	</div> -->
-	<!--//footer-->
-	<!-- smooth scrolling -->
-
-	<div style="background-color: #0c274d; padding: 48px 20px 28px 48px;" id="contact">
-		<div class="row">
-			<div class="col-md-5 crrfooter">
-				<h1 class="text-light">Sir C.R.R. Polytechnic</h1>
-				<p style="color:#bfbd22;  margin: 0;">VATLURU, ELURU,</p>
-				<p style="color:#bfbd22; ">ANDHRA PRADESH 534007</p>
-			</div>
-			<div class="col-md-2 ">
-				<h3 style="color:#bfbd22; " class=" quick">Quick links</h3>
-				<div class="links-footerDiv"> <a href="#" style="text-decoration:none; color: white;">SBTET
-						Notifications</a></div>
-				<div class="links-footerDiv"><a href="#" style="text-decoration:none; color: white;">SBTET Results</a>
-				</div>
-			</div>
-			<div class="col-md-2 ">
-				<h3 style="color:#bfbd22; " class="quick">Connect with Us</h3>
-				<div class="links-footerDiv"> <a href="#" style="text-decoration:none; color: white;">Twitter</a></div>
-				<div class="links-footerDiv"> <a href="#" style="text-decoration:none; color: white;">Facebook</a></div>
-				<div class="links-footerDiv"> <a href="#" style="text-decoration:none; color: white;">Instagram</a>
-				</div>
-
-			</div>
-			<div class="col-md-2">
-				<h3 style="color:#bfbd22; " class=" mail quick">Mailing Address</h3>
-				<p class="footer_para links-footerDiv">123 Anywhere St., Any City
-					State, Country 12345</p>
-				<h3 style="color:#bfbd22;" class="quick">Email Address</h3>
-
-				<p class="footer_para links-footerDiv">hello@reallygreatsite.com</p>
-				<h3 style="color:#bfbd22; " class="quick">Phone Number</h3>
-				<p class="footer_para links-footerDiv">(123) 456 7890</p>
-
-			</div>
-
-		</div>
-		<p class="text-center copy_right">Designed by Aacharya. All rights resrved by Sir CRR Polytech @2023</p>
-	</div>
+	
+<?php include 'footer.php'; ?>
 	<script type="text/javascript">
 		$(document).ready(function () {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
+			
 			$().UItoTop({ easingType: 'easeOutQuart' });
 		});
 

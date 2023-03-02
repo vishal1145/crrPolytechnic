@@ -21,7 +21,7 @@
 					<a class="nav-link menu__link scroll" href="./index.php">Home</a>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link scroll" href="./about.php">About</a>
+					<a class="nav-link menu__link " href="./about.php">About</a>
 				</li>
 				<li class="nav-item menu__item">
 					<a class="nav-link menu__link scroll" href="#">Academics</a>
