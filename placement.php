@@ -23,12 +23,24 @@
                             About T&P
                         </a>
                    </li>
-                  
+                   <li>
+                        <a id="myAnchor" onclick="loadDoc('interect.html')">
+                            <span><i class="fa-solid fa-play"></i></span>
+                            INTERACTION CELL
+                        </a>
+                   </li>
+                   <li>
+                        <a id="myAnchor" onclick="loadDoc('placement_recruit.html')">
+                            <span><i class="fa-solid fa-play"></i></span>
+                            OUR RECRUITERS
+                        </a>
+                   </li>
                 </ul>
                </div>
             </div>
           
         </div>
+        <div id="demo">
         <div class="col-md-9">
             <div class="rightside">
                 <h3 class="item_title">About T&P</h3>
@@ -43,6 +55,7 @@
             </div>
         </div>
     </div>
+</div>
     <?php include 'footer.php' ?>
     <script src="./script.js"></script>
 

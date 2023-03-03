@@ -87,7 +87,7 @@
 					<a class="nav-link menu__link" href="./campus.php">Campus life</a>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link " href="#contact">Contact us</a>
+					<a class="nav-link menu__link " href="./contact.php">Contact us</a>
 				</li>
 			</ul>
 		</div>
