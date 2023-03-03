@@ -50,10 +50,11 @@
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a href="" id="myAnchor" onclick="loadDoc('hostel.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Hostels
                         </a>
+                      
                    </li>
                    <li>
                         <a href="">
@@ -62,7 +63,7 @@
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a href="" id="myAnchor">
                             <span><i class="fa-solid fa-play"></i></span>
                             Health Center
                         </a>
@@ -72,7 +73,8 @@
             </div>
           
         </div>
-        <div class="col-md-9">
+       <div id="demo">
+       <div class="col-md-9">
             <div class="rightside">
                 <h3 class="item_title">Class Rooms</h3>
                 <div class="about">
@@ -87,7 +89,12 @@
                 </div>
             </div>
         </div>
+       </div>
     </div>
     <?php include 'footer.php' ?>
+    <script src="./script.js"></script>
+
 </body>
 </html>
+ 
+
