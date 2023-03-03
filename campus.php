@@ -14,7 +14,7 @@
     <div class="container">
         <div class="col-md-3">
             <div class="leftSide">
-               <h3 class="module_title">Campus</h3>
+               <h3 class="module_title">Facilities1</h3>
                <div class="mod-menu">
                 <ul class="nav">
                    <li>
@@ -24,19 +24,19 @@
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a  id="myAnchor" onclick="loadDoc('co_curri.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Co Curricular Activities
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a id="myAnchor" onclick="loadDoc('alumni.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Alumni Association
                         </a>
                         <ul class="nav-child unstyled small">
                             <li class="item-483 firstItem">
-                                <a href="">
+                                <a id="myAnchor" onclick="loadDoc('alumni_aims.html')">
                                     <span><i class="fa-solid fa-play"></i></span>
                                     Aims and Objective
                                 </a>
@@ -44,7 +44,7 @@
                         </ul>
                         <ul class="nav-child unstyled small">
                             <li class="item-483 firstItem">
-                                <a href="">
+                                <a id="myAnchor" onclick="loadDoc('alumni_regist.html')">
                                     <span><i class="fa-solid fa-play"></i></span>
                                     Alumni Registration
                                 </a>
@@ -52,7 +52,7 @@
                         </ul>
                         <ul class="nav-child unstyled small">
                             <li class="item-483 firstItem">
-                                <a href="">
+                                <a id="myAnchor" onclick="loadDoc('alumni_direct.html')">
                                     <span><i class="fa-solid fa-play"></i></span>
                                     Alumni Directory
                                 </a>
@@ -60,7 +60,7 @@
                         </ul>
                         <ul class="nav-child unstyled small">
                             <li class="item-483 firstItem">
-                                <a href="">
+                                <a id="myAnchor" onclick="loadDoc('alumni_activ.html')">
                                     <span><i class="fa-solid fa-play"></i></span>
                                     Alumni Activities
                                 </a>
@@ -68,13 +68,14 @@
                         </ul>
                    </li>
                    <li>
-                        <a href="">
+                        <a  id="myAnchor" onclick="loadDoc('events.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Events
                         </a>
+                      
                    </li>
                    <li>
-                        <a href="">
+                        <a  id="myAnchor" onclick="loadDoc('anti_ragg.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Anti Ragging Policy
                         </a>
@@ -84,7 +85,8 @@
             </div>
           
         </div>
-        <div class="col-md-9">
+       <div id="demo">
+       <div class="col-md-9">
             <div class="rightside">
                 <h3 class="item_title">Extra Curricular Activities</h3>
                 <div class="about">
@@ -97,15 +99,27 @@
                
                 </p>
                 <ul class="fordotted">
-                    <li>Cricket Ground</li>
-                    <li>Basket Ball Court</li>
+                    <li class="myclass">Cricket Ground</li>
+                    <li class="myclass">Basket Ball Court</li>
+                    <li class="myclass">Volley Ball Court</li>
+                    <li class="myclass">FootBall Ground</li>
+                    <li class="myclass">Ball Badminton Court</li>
+                    <li class="myclass">Table Tennis</li>
+                    <li class="myclass">Carrom Board</li>
+                    <li class="myclass">Chess Board</li>
+                    <li class="myclass">Shuttle Badminton Court</li>
+                    <li class="myclass">Tennicoit Court</li>
+                    <li class="myclass">NSS-COMING SOON</li>
                </ul>
                 </div>
             </div>
         </div>
+       </div>
     </div>
     <?php include 'footer.php' ?>
     <script src="./script.js"></script>
 
 </body>
 </html>
+ 
+

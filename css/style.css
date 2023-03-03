@@ -3062,3 +3062,9 @@ td{
 .fa-angle-down{
 	font-size: 12px !important;
 }
+.myclass{
+	padding: 5px;
+}
+.center{
+	text-align: center;
+}

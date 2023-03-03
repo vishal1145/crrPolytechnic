@@ -24,48 +24,64 @@
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a  id="myAnchor" onclick="loadDoc('seminar.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Seminar Hall
                         </a>
-                        <ul class="nav-child unstyled small">
-                            <li class="item-483 firstItem">
-                                <a href="">
-                                    <span><i class="fa-solid fa-play"></i></span>
-                                    Library
-                                </a>
-                            </li>
-                        </ul>
                    </li>
                    <li>
-                        <a href="">
+                        <a  id="myAnchor1" onclick="loadDoc('library.html')">
+                            <span><i class="fa-solid fa-play"></i></span>
+                            Library
+                        </a>
+                   </li>
+                   <li>
+                        <a  id="myAnchor" onclick="loadDoc('sports.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Sports & Games
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a  id="myAnchor" onclick="loadDoc('transport.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Transportation
                         </a>
                    </li>
                    <li>
-                        <a href="" id="myAnchor" onclick="loadDoc('hostel.html')">
+                        <a  id="myAnchor" onclick="loadDoc('hostel.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Hostels
                         </a>
                       
                    </li>
                    <li>
-                        <a href="">
+                        <a  id="myAnchor" onclick="loadDoc('canteen.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Canteen
                         </a>
                    </li>
                    <li>
-                        <a href="" id="myAnchor">
+                        <a  id="myAnchor" onclick="loadDoc('health.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Health Center
+                        </a>
+                   </li>
+                   <li>
+                        <a  id="myAnchor" onclick="loadDoc('browsing.html')">
+                            <span><i class="fa-solid fa-play"></i></span>
+                            Browsing Center:
+                        </a>
+                   </li>
+                   <li>
+                        <a  id="myAnchor" onclick="loadDoc('lab.html')">
+                            <span><i class="fa-solid fa-play"></i></span>
+                            Language Lab
+                        </a>
+                   </li>
+                   <li>
+                        <a  id="myAnchor" onclick="loadDoc('waterpuri.html')">
+                            <span><i class="fa-solid fa-play"></i></span>
+                            Water Purification System
                         </a>
                    </li>
                 </ul>

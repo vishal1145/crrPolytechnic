@@ -67,9 +67,16 @@
 						<i class="fa fa-angle-down"></i>
 					</a>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="#">Hostel</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item1" href="#">Something</a>
+						<a class="dropdown-item" href="#">Class Rooms</a>
+						<a class="dropdown-item" href="#">Seminar Hall</a>
+						<a class="dropdown-item" href="#">Library</a>
+						<a class="dropdown-item" href="#">Sports & Games</a>
+						<a class="dropdown-item" href="#">Transportation</a>
+						<a class="dropdown-item" href="#">Hostels</a>
+						<a class="dropdown-item" href="#">Canteen</a>
+						<a class="dropdown-item" href="#">Browsing Center</a>
+						<a class="dropdown-item" href="#">Language Lab</a>
+						<a class="dropdown-item1" href="#">Water Purification System</a>
 					</div>
 					</div>
 				</li>
