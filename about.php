@@ -2,7 +2,7 @@
 <head>
    
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
@@ -24,13 +24,13 @@
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a  id="myAnchor" onclick="loadDoc('V&M.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Vision and mission
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a  id="myAnchor" onclick="loadDoc('hostel.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Management team
                         </a>
@@ -46,7 +46,8 @@
             </div>
           
         </div>
-        <div class="col-md-9">
+       <div class="demo">
+       <div class="col-md-9">
             <div class="rightside">
                 <h3 class="item_title">About College</h3>
                 <div class="about">
@@ -77,9 +78,11 @@
                 </div>
             </div>
         </div>
+       </div>
     </div>
     <?php include 'footer.php' ?>
     <script src="./script.js"></script>
-
+    
 </body>
 </html>
+

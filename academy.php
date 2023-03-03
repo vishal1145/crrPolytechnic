@@ -24,25 +24,25 @@
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a id="myAnchor" onclick="loadDoc('curricillium.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Curricillum
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a id="myAnchor" onclick="loadDoc('result.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Results
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a id="myAnchor" onclick="loadDoc('notification.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Notification
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a id="myAnchor" onclick="loadDoc('paper.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Polycet Previous Papers
                         </a>
@@ -52,8 +52,9 @@
             </div>
           
         </div>
-        <div class="col-md-9">
-        <div class="rightside">
+       <div id="demo">
+       <div class="col-md-9">
+            <div class="rightside">
             <h3 class="item_title">Courses Offered</h3>
             <table class="table table-bordered">
                 <thead>
@@ -102,8 +103,9 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
         </div>
-        </div>
+       </div>
     </div>
     <?php include 'footer.php' ?>
     <script src="./script.js"></script>
