@@ -30,13 +30,13 @@
                         </a>
                    </li>
                    <li>
-                        <a  id="myAnchor" onclick="loadDoc('hostel.html')">
+                        <a  id="myAnchor" onclick="loadDoc('management.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Management team
                         </a>
                    </li>
                    <li>
-                        <a href="">
+                        <a id="myAnchor" onclick="loadDoc('principle.html')" >
                             <span><i class="fa-solid fa-play"></i></span>
                             Principal and correspondent
                         </a>
@@ -46,7 +46,7 @@
             </div>
           
         </div>
-       <div class="demo">
+       <div id="demo">
        <div class="col-md-9">
             <div class="rightside">
                 <h3 class="item_title">About College</h3>
