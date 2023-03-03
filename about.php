@@ -41,6 +41,12 @@
                             Principal and correspondent
                         </a>
                    </li>
+                   <li>
+                        <a id="myAnchor" onclick="loadDoc('about_society.html')">
+                            <span><i class="fa-solid fa-play"></i></span>
+                            About Society
+                        </a>
+                   </li>
                 </ul>
                </div>
             </div>
