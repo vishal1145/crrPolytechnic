@@ -67,6 +67,7 @@
        <div class="col-md-9">
         <div class="rightside">
             <h3 class="item_title">Department wise Lab / Major Equipments</h3>
+            <div class="about">
             <h3 class="item_title" style="text-align:center;">Major Laboratories</h3>
            <div class="table-responsive">
            <table class="table table-bordered">
@@ -217,6 +218,7 @@
                 </tbody>
             </table>
            </div>
+            </div>
         </div>
         </div>
        </div>

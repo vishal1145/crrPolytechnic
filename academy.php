@@ -56,6 +56,7 @@
        <div class="col-md-9">
             <div class="rightside">
             <h3 class="item_title">Courses Offered</h3>
+            <div class="about">
             <table class="table table-bordered">
                 <thead>
                     <tr>
@@ -103,6 +104,7 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
             </div>
         </div>
        </div>

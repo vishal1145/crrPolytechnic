@@ -72,7 +72,7 @@
 					Departments
 						<i class="fa fa-angle-down"></i>
 					</a>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
 						<a class="dropdown-item" href="#">CIVIL ENGINEERING</a>
 						<a class="dropdown-item" href="#">COMPUTER ENGINEERING 120</a>
 						<a class="dropdown-item" href="#">ELECTRONICS AND COMMUNICATION ENGINEERING</a>
@@ -124,6 +124,34 @@
    element.classList.toggle("responsive");
 
 }
+
+
+
+
+const $dropdown = $(".dropdown");
+				const $dropdownToggle = $(".dropdown-toggle");
+				const $dropdownMenu = $(".dropdown-menu");
+				const showClass = "show";
+				$(window).on("load resize", function() {
+				if (this.matchMedia("(min-width: 768px)").matches) {
+					$dropdown.hover(
+					function() {
+						const $this = $(this);
+						$this.addClass(showClass);
+						$this.find($dropdownToggle).attr("aria-expanded", "true");
+						$this.find($dropdownMenu).addClass(showClass);
+					},
+					function() {
+						const $this = $(this);
+						$this.removeClass(showClass);
+						$this.find($dropdownToggle).attr("aria-expanded", "false");
+						$this.find($dropdownMenu).removeClass(showClass);
+					}
+					);
+				} else {
+					$dropdown.off("mouseenter mouseleave");
+				}
+				});
 </script>
 </body>
 </html>

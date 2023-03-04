@@ -18,7 +18,7 @@
                <div class="mod-menu">
                 <ul class="nav">
                    <li>
-                        <a href="">
+                        <a id="myAnchor" onclick="loadDoc('contact_about.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             About College
                         </a>
@@ -29,7 +29,7 @@
                             Vision And Mission
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('alumni.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Alumni Association
@@ -79,7 +79,7 @@
                             <span><i class="fa-solid fa-play"></i></span>
                             Anti Ragging Policy
                         </a>
-                   </li>
+                   </li> -->
                 </ul>
                </div>
             </div>
@@ -88,32 +88,30 @@
        <div id="demo">
        <div class="col-md-9">
             <div class="rightside">
-                <h3 class="item_title">About College</h3>
+                <h3 class="item_title">Contact Us</h3>
                 <div class="about">
-                <p>Sir C Ramalinga Reddy Polytechnic is the first Polytechnic College in private sector in Andhra
-                Pradesh sanctioned and recognized by All India Council for Technical Education (AICTE). This College
-                is permanently affiliated to SBTET Since inception.</p>
-            <p>Since its inception in 1980, Sir Sir C Ramalinga Reddy Polytechnic has been a premier institute for
-                quality Polytechnic education in Andhra Pradesh under the stewardship of its broad minded and
-                magnanimous management. The last four decades has seen the Institute fulfilling its motto of
-                'QUALITY SERVICE & VALUE BASED EDUCATION' to the student community.</p>
-            <p>Adhering to its core values, the institute gives top priority to ethical values and high standards
-                and a commitment to value based education. We believe in working honestly and sincerely, in building
-                trust and in maintaining a long lasting relationship with the Society. Our team comprises of highly
-                qualified and motivated faculty. Core competence and a friendly but efficient work culture play an
-                important role in our overall achievements.</p>
-            <p>The College is situated near Vatluru railway gate in Eluru, the Head Quarters of West Godavari
-                district. It is surrounded by beautiful paddy fields and is on Chennai-Howrah highway and train
-                route. A large number of buses and trains run via this town. It is easily accessible from any part
-                of the country by rail as well as road.</p>
-            <p>The College is located in its own sprawling campus with an area of 11.19 acres. Its magnanimous
-                infrastructure and greenery attracts the attention of people who pass by. The vast green campus
-                housing several Departments provides a stimulating environment to the high caliber staff and
-                students of the institution.
-                The Campus at Vatluru is a place where students from all walks of life are under a single umbrella
-                pursuing their Diploma course.
-            </p>
-				
+                <div class="item_fulltext">
+                    <div style="width: 100%;">
+                        <div style="width: 50%; float: left;">
+                            <h3 style="text-decoration: underline; color: purple; padding-top: 0.1cm; font-size: 14pt; padding-bottom: 0px; text-align: justify; margin-bottom: 0px;" align="left"><span style="font-family: 'book antiqua', palatino, serif; font-size: 14pt;">Address for Communication:</span></h3>
+                            <p style="padding: 0px;">&nbsp;</p>
+                            <p style="padding: 0px;"><span style="font-size: 12pt; color: #000000;"><strong><span style="font-family: 'book antiqua', palatino, serif;">Sir C. R. Reddy College of Engineering</span></strong></span></p>
+                            <p style="padding: 0px;"><span style="font-size: 12pt; color: #000000;"><strong><span style="font-family: 'book antiqua', palatino, serif;">ELURU-534007,W.G.DIST.,A.P.</span></strong></span></p>
+                            <p style="padding: 0px;"><span style="font-size: 12pt; color: #000000;"><strong><span style="font-family: 'book antiqua', palatino, serif;">PH:- 08812 230840&nbsp;</span></strong></span></p>
+                            <p style="padding: 0px;"><span style="font-size: 12pt; color: #000000;"><strong><span style="font-family: 'book antiqua', palatino, serif;">FAX:- 08812-224193</span></strong></span></p>
+                            <p style="padding: 0px;">&nbsp;</p>
+                            <p style="padding: 0px;"><span style="font-size: 14pt; color: #000080;"><strong><span style="font-family: 'book antiqua', palatino, serif;">For Admissions Contact: 9493830840, 8985384116</span></strong></span></p>
+                            <p style="padding: 0px;">&nbsp;</p>
+                            <p style="padding: 0px;"><strong>&nbsp;</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 50%; float: left; text-align: justify;">
+                <h3 style="text-decoration: underline; color: purple; padding-top: 0.1cm; font-size: 14pt; padding-bottom: 0px; margin-bottom: 0px;" align="left"><span style="font-size: 14pt;"><strong><span style="font-family: 'book antiqua', palatino, serif;">Principal:</span></strong></span></h3>
+                <p style="padding: 0px;"><strong>&nbsp;</strong></p>
+                <p style="padding: 0px;"><span style="font-size: 12pt;"><strong><span style="color: #000080;"><span style="font-family: 'book antiqua', palatino, serif;">Dr. K. Venkateswara Rao&nbsp;M.Tech., Ph.D</span></span></strong></span></p>
+                <p style="padding: 0px; color: black; padding-top: 0.1cm;" align="left"><span style="font-size: 12pt;"><strong><span style="font-family: 'book antiqua', palatino, serif;">Sir C. R. Reddy College of Engineering</span></strong></span></p>
+            </div>
                 </div>
             </div>
         </div>
