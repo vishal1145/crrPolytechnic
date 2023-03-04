@@ -894,14 +894,15 @@ span.simply-word {
     margin:0
 }
 .demo-2 h3 {
-    font-size:20px;
+    font-size:14px;
     line-height:24px;
     margin:0;
 }
 .effect img {
     position:absolute;
+	width: 100%;
     left:0;
-    bottom:0;
+    bottom:-66px;
     cursor:pointer;
     margin:-12px 0;
     -webkit-transition:bottom .3s ease-in-out;
@@ -1306,7 +1307,7 @@ i.s3{
 		height: 205px;
 	}
 	.demo-2 h3 {
-		font-size: 17px;
+		font-size: 14px;
 		line-height: 22px;
 	}
 	.icons {
@@ -2268,7 +2269,7 @@ i.s3{
 		margin-bottom: 17px;
 	}
 	.demo-2 h3 {
-		font-size: 15px;
+		font-size: 14px;
 		line-height: 17px;
 	}
 	.faculty1 p {
@@ -2472,7 +2473,7 @@ i.s3{
 		margin-bottom: 26px;
 	}
 	.demo-2 h3 {
-		font-size: 18px;
+		font-size: 14px;
 		line-height: 25px;
 	}
 	.faculty1 {
@@ -2599,7 +2600,7 @@ i.s3{
 		line-height: 28px;
 	}
 	.demo-2 h3 {
-		font-size: 15px;
+		font-size: 14px;
 	}
 	.faculty1 p {
 		font-size: 13px;
@@ -2829,6 +2830,7 @@ img{
 }
 .copy_right{
 	color: white;
+	padding-top: 40px;
 }
 .links-footerDiv{
 	margin-top: 10px;

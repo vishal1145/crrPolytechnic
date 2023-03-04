@@ -294,7 +294,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<a href="images/g1.jpg" class="b-link-stripe b-animate-go  thickbox">
 
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/campus3.jpg" alt="">
+								<img class="img-responsive gallery_clg" src="images/ccnGrp.jpg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -306,7 +306,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g2.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/campus4.jpg" alt="">
+								<img class="img-responsive gallery_clg" src="images/cse4.jpeg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -318,7 +318,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g3.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/campus6.jpg" alt="">
+								<img class="img-responsive gallery_clg" src="images/ece3.jpeg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -330,7 +330,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g4.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/campus5.jpg" alt="">
+								<img class="img-responsive gallery_clg" src="images/GRPpic.jpg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -342,7 +342,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g5.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/g6.jpg" alt="">
+								<img class="img-responsive gallery_clg" src="images/eee4.jpeg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -354,7 +354,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g6.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/g9.jpg" alt="">
+								<img class="img-responsive gallery_clg" src="images/study.jpg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -435,65 +435,65 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<ul class="demo-2 effect">
 						<li>
 							<h3 class="zero">COMPUTER SCIENCE</h3>
-							<p class="zero">Lorem ipsum dolor sit amet.</p>
+							<!-- <p class="zero">Lorem ipsum dolor sit amet.</p> -->
 						</li>
-						<li><img class="top" src="images/faculty1.jpg" alt="" /></li>
+						<li><img class="top" src="images/P.Murali [B.Technician] [B.Tech].jpg" alt="" /></li>
 					</ul>
-					<h4>Dr. Taruna Gautam</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<div class="social-icons">
+					<h4>P.Murali</h4>
+					<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+					<!-- <div class="social-icons">
 						<i class="s1 fa fa-facebook" aria-hidden="true"></i>
 						<i class="s2 fa fa-twitter" aria-hidden="true"></i>
 						<i class="s3 fa fa-google" aria-hidden="true"></i>
-					</div>
+					</div> -->
 				</div>
 				<div class="f2 col-md-3 faculty1">
 					<ul class="demo-2 effect">
 						<li>
-							<h3 class="zero">COMMUNICATION SKILLS</h3>
-							<p class="zero">Lorem ipsum dolor sit amet.</p>
+							<h3 class="zero">ELECTRICAL AND ELECTRONICS ENGINEERING</h3>
+							<!-- <p class="zero">Lorem ipsum dolor sit amet.</p> -->
 						</li>
-						<li><img class="top" src="images/faculty2.jpg" alt="" /></li>
+						<li><img class="top" src="images/M.Sarath babu[ M.Tech].jpg" alt="" /></li>
 					</ul>
-					<h4>Professor Dr. Ravi</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<div class="social-icons">
+					<h4>M.Sarath babu</h4>
+					<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+					<!-- <div class="social-icons">
 						<i class=" s1 fa fa-facebook" aria-hidden="true"></i>
 						<i class=" s2 fa fa-twitter" aria-hidden="true"></i>
 						<i class=" s3 fa fa-google" aria-hidden="true"></i>
-					</div>
+					</div> -->
 				</div>
 				<div class="f3 col-md-3 faculty1">
 					<ul class="demo-2 effect">
 						<li>
-							<h3 class="zero">GENERAL SCIENCE</h3>
-							<p class="zero">Lorem ipsum dolor sit amet.</p>
+							<h3 class="zero">CIVIL ENGINEERING</h3>
+							<!-- <p class="zero">Lorem ipsum dolor sit amet.</p> -->
 						</li>
-						<li><img class="top" src="images/faculty3.jpg" alt="" /></li>
+						<li><img class="top" src="images/A gayatri devi [B. Tech].jpg" alt="" /></li>
 					</ul>
-					<h4>Ms. Juli Yadav</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<div class="social-icons">
+					<h4>A gayatri devi</h4>
+					<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+					<!-- <div class="social-icons">
 						<i class=" s1 fa fa-facebook" aria-hidden="true"></i>
 						<i class=" s2 fa fa-twitter" aria-hidden="true"></i>
 						<i class=" s3 fa fa-google" aria-hidden="true"></i>
-					</div>
+					</div> -->
 				</div>
 				<div class="f4 col-md-3 faculty1">
 					<ul class="demo-2 effect">
 						<li>
-							<h3 class="zero">MATHEMATICS</h3>
-							<p class="zero">Lorem ipsum dolor sit amet.</p>
+							<h3 class="zero">ELECTRONICS AND COMMUNICATION ENGINEERING	</h3>
+							<!-- <p class="zero">Lorem ipsum dolor sit amet.</p> -->
 						</li>
-						<li><img class="top" src="images/faculty4.jpg" alt="" /></li>
+						<li><img class="top" src="images/Sk. Howldhar [M.Tech].jpg" alt="" /></li>
 					</ul>
-					<h4>Mr. Vikas Singh</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					<div class="social-icons">
+					<h4>Sk. Howldhar</h4>
+					<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+					<!-- <div class="social-icons">
 						<i class="s1 fa fa-facebook" aria-hidden="true"></i>
 						<i class="s2 fa fa-twitter" aria-hidden="true"></i>
 						<i class="s3 fa fa-google" aria-hidden="true"></i>
-					</div>
+					</div> -->
 				</div>
 
 				<div class="clearfix"></div>

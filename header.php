@@ -92,7 +92,7 @@
 						<i class="fa fa-angle-down"></i>
 					</a>
 					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="#">CLASS ROOMS</a>
+						<a class="dropdown-item" href="./facilities.php">CLASS ROOMS</a>
 						<a class="dropdown-item" href="#">SEMINAR HALL</a>
 						<a class="dropdown-item" href="#">LIBRARY</a>
 						<a class="dropdown-item" href="#">SPORTS & GAMES</a>
