@@ -502,7 +502,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 		
 	</div>
-	<div class="about society">
+	<!-- <div class="about society">
 
 		<h2 class="text-center">About Society</h2>
 		<h4 class="text-center">SIR CATTAMANCHI RAMALINGA REDDY EDUCATIONAL INSTITUTIONS</h4>
@@ -571,7 +571,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 
 		</p>
-	</div>
+	</div> -->
 	<!--//faculty-->
 
 	<!--contact-->

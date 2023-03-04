@@ -1,12 +1,32 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Document</title>
+<style>
+	.barIcon{
+		color:#fff;
+		font-size:40px;
+	}
+	.mystyle{
+		display:block !important;
+	}
+
+	@media(max-width:767px){
+		.responsive{
+		display:contents !important;
+	}
+	}
+</style>
 </head>
 <body>
 <div class="hlo">
+		<div class="forFlex">
 		<div class="d-flex clgLogo">
 			<img src="./clgImages/CRRlogo.jpeg" alt="">
 			<div class="text-center navbarClgName">
@@ -14,9 +34,14 @@
 				<p>VATLURU, ELURU,</p>
 				<p>ANDHRA PRADESH 534007</p>
 			</div>
+			
 		</div>
-		<div class="collapse navbar-collapse links" id="navbarNav">
-			<ul class="navbar-nav">
+		<div class="barIcon"  onclick="myFunction()">
+			<i class="fa-solid fa-bars"></i>
+			</div>
+		</div>
+		<div class="collapse navbar-collapse links" id="myDIV">
+			<ul class="navbar-nav responsive">
 				<li class="nav-item menu__item">
 					<a class="nav-link menu__link " href="./index.php">Home</a>
 				</li>
@@ -93,31 +118,12 @@
 		</div>
 </div>
 <script>
-				const $dropdown = $(".dropdown");
-				const $dropdownToggle = $(".dropdown-toggle");
-				const $dropdownMenu = $(".dropdown-menu");
-				const showClass = "show";
-				$(window).on("load resize", function() {
-				if (this.matchMedia("(min-width: 768px)").matches) {
-					$dropdown.hover(
-					function() {
-						const $this = $(this);
-						$this.addClass(showClass);
-						$this.find($dropdownToggle).attr("aria-expanded", "true");
-						$this.find($dropdownMenu).addClass(showClass);
-					},
-					function() {
-						const $this = $(this);
-						$this.removeClass(showClass);
-						$this.find($dropdownToggle).attr("aria-expanded", "false");
-						$this.find($dropdownMenu).removeClass(showClass);
-					}
-					);
-				} else {
-					$dropdown.off("mouseenter mouseleave");
-				}
-				});
-</script>
+	function myFunction() {
+   var element = document.getElementById("myDIV");
+   element.classList.toggle("mystyle");
+   element.classList.toggle("responsive");
 
+}
+</script>
 </body>
 </html>
