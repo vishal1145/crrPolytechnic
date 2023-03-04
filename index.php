@@ -241,7 +241,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div class="text">
 							<h5>ROBOTICS WORKSHOP</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Lorem Ipsum is simply industry.</p>
 						</div>
 					</div>
 					<div class="grid">
@@ -250,7 +250,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div class="text">
 							<h5>ROBOTICS WORKSHOP</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Lorem Ipsum is simply industry.</p>
 						</div>
 					</div>
 					<div class="grid">
@@ -259,7 +259,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div class="text">
 							<h5>ROBOTICS WORKSHOP</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Lorem Ipsum is simply industry.</p>
 						</div>
 					</div>
 
@@ -269,7 +269,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div>
 						<div class="text">
 							<h5>ROBOTICS WORKSHOP</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Lorem Ipsum is simply industry.</p>
 						</div>
 					</div>
 				</div>

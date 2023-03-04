@@ -437,7 +437,7 @@ a.menu__link {
 .about{
     background: rgba(238, 238, 238, 0.88);
 	background-size: cover;
-	padding: 4% 7% 6% 7%;
+	padding: 4% 7% 8% 7%;
 	margin: 20px 0;
 	}
 .about h2 {
@@ -618,7 +618,7 @@ a.menu__link {
 .text {
     float: right;
 	width: 79%;
-    padding-top: 22px;
+    padding-top: 36px;
 }
 .grid h5 {
     font-size: 20px;
@@ -1290,9 +1290,7 @@ i.s3{
 	.slider-info h3 {
 		width: 34%;
 	}
-	.about {
-		padding: 4% 7% 41% 7%;
-	}
+	
 	.about p {
 		padding: 9px;
 		line-height: 25px;
@@ -1366,9 +1364,7 @@ i.s3{
 		font-size: 37px;
 		width: 30%;
 	}
-	.about {
-		padding: 4% 7% 50% 7%;
-	}
+	
 	.about h4 {
 		line-height: 28px;
 		font-size: 16px;
@@ -1527,9 +1523,7 @@ i.s3{
 		font-size: 36px;
 		width: 35%;
 	}
-	.about {
-	    padding: 2% 7% 102% 7%;
-	}
+	
 	.about h2 {
 		padding-bottom: 8px;
 		letter-spacing: 1px;
@@ -1852,9 +1846,7 @@ i.s3{
 	.left-contact h6 {
 		width: 55%;
 	}
-	.about {
-		padding: 2% 7% 116% 7%;
-	}
+	
 	.grids {
 		float: none;
 		width: 95%;
@@ -1952,9 +1944,7 @@ i.s3{
 	.left-contact h6 {
 		width: 28%;
 	}
-	.about {
-		padding: 2% 7% 117% 7%;
-	}
+
 	.left-contact {
 		float: left;
 		width: 100%;
@@ -1977,9 +1967,7 @@ i.s3{
 		letter-spacing: 2px;
 		line-height: 24px;
 	}
-	.about {
-		padding: 2% 7% 122% 7%;
-	}
+	
 	.grid p {
 		width: 97%;
 		line-height: 15px;
@@ -2089,9 +2077,7 @@ i.s3{
 		float: none;
 		width: 80%;
 	}
-	.about {
-		padding: 2% 7% 61% 7%;
-	}
+	
 	.left-contact {
 		margin: 40px auto;
 	}
@@ -2184,9 +2170,7 @@ i.s3{
 		width: 82%;
 		padding-bottom: 14px;
 	}
-	.about {
-		padding: 2% 2% 75% 2%;
-	}
+
 	.agile-welcome {
 		margin-top: 66px;
 	}
@@ -2353,9 +2337,7 @@ i.s3{
 	.slider-info {
 		top: 93px;
 	}
-	.about {
-		padding: 1% 1% 154% 1%;
-	}
+	
 	.about p {
 		font-size: 14px;
 		padding: 2px 24px;
@@ -2547,9 +2529,7 @@ i.s3{
 	.about h4 {
 		padding-bottom: 0px;
 	}
-	.about {
-		padding: 1% 1% 97% 1%;
-	}
+	
 	.about p {
 		padding: 2px 20px;
 	}
@@ -2639,9 +2619,7 @@ i.s3{
 	}
 }
 @media(max-width:375px){
-	.about {
-		padding: 1% 1% 112% 1%;
-	}
+	
 	.left-contact h6 {
 		width: 48%;
 		font-size: 23px;
@@ -2691,9 +2669,7 @@ i.s3{
     font-size: 19px;
     padding-bottom: 0px;
 }
-	.about {
-		padding: 1% 1% 135% 1%;
-	}
+	
 	.about p {
 		padding: 2px 11px;
 	}
@@ -2872,7 +2848,7 @@ img{
 .navbarClgName h2{
 	margin: 0;
 	color: #fff;
-	font-size: 40px;
+	font-size: 34px;
 	line-height: 54px;
 }
 .navbarClgName p{
@@ -3117,5 +3093,131 @@ td{
 .background{
 	background: rgba(238, 238, 238, 0.88);
 }
+  @media (min-width:768px) and (max-width:991px){
+	.links ul li a{
+		font-size: 10px;
+	}
+	.fa-angle-down {
+		font-size: 10px !important;
+	}
+	.links ul{
+		gap: 8px;
+	}
+	.links {
+		padding: 0 10px;
+	}
+	.clgLogo img {
+		width: 80px;
+		height: 80px;
+	}
+	.navbarClgName h2{
+		line-height: 30px;
+		font-size: 28px;
+		margin-bottom: 4px;
+	}
+	.navbarClgName p{
+		font-size: 16px;
+	}
+	.clgLogo{
+		padding-bottom: 10px;
+	}
+	.rslides img{
+		height: auto !important;
+	}
+	.show{
+		padding-top: 2px;
+	}
+	
+  }
 
+  @media (min-width:700px) and (max-width:800px){
+  .about{
+	padding: 4% 7% 62% 7%;
+  }
+}
+@media (min-width:650px) and (max-width:699px){
+	.about{
+		padding:4% 7% 67% 7%;	
+	}
+	}
+@media (min-width:600px) and (max-width:649px){
+		.about{
+			padding:4% 7% 84% 7%;	
+		}
+		}
+@media (min-width:550px) and (max-width:599px){
+			.about{
+				padding:4% 7% 94% 7%;	
+			}
+			}		
+			@media (min-width:500px) and (max-width:549px){
+				.about{
+					padding:4% 7% 113% 7%;	
+				}
+				}
+				@media (min-width:450px) and (max-width:499px){
+					.about{
+						padding:4% 7% 150% 7%;	
+					}
+					}				
+					@media (min-width:400px) and (max-width:449px){
+						.about{
+							padding:4% 7% 170% 7%;	
+						}
+						}
+						@media (min-width:340px) and (max-width:399px){
+							.about{
+								padding:4% 7% 200% 7%;	
+							}
+							}
+@media (min-width:992px) and (max-width:1200px){
+	.links ul{
+		gap: 10px;
+	}
+	.links {
+		padding: 0 12px;
+	}
+	.clgLogo img{
+		width: 100px;
+    height: 100px;
+    object-fit: cover;
+	}
+	.navbarClgName h2{
+		line-height: 40px;
+    margin-bottom: 4px;
+	}
+	.rslides img{
+		height: auto !important;
+	}
+}
+@media (min-width:1201px) and (max-width:1400px){
+	.links ul{
+		gap: 30px;
+	}
+	.links ul li a{
+		font-size: 16px;
+	}
+	.clgLogo img{
+		width: 110px;
+		height: 110px;
+	}
+}
+@media (min-width:450px) and (max-width:767px){
+	.forFlex{
+		padding: 20px 40px;
+	}
+	.clgLogo{
+		gap: 18px;
+	}
+}
+@media (min-width:1401px) and (max-width:1950px){
+	.clgLogo img{
+		width: 110px;
+		height: 110px;
+	}
+}
 
+.grid{
+	display: flex;
+	gap: 20px;
+}
