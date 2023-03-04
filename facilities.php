@@ -70,7 +70,7 @@
                    <li>
                         <a  id="myAnchor" onclick="loadDoc('browsing.html')">
                             <span><i class="fa-solid fa-play"></i></span>
-                            Browsing Center:
+                            Browsing Center
                         </a>
                    </li>
                    <li>
@@ -94,7 +94,7 @@
        <div class="col-md-9">
             <div class="rightside">
                 <h3 class="item_title">Class Rooms</h3>
-                <div class="about">
+                <div class="newClass">
                 
 				<p>
                         The classrooms of this institute are will designed with sufficient ventilation

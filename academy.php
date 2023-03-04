@@ -11,7 +11,6 @@
 <?php
 	include 'header.php';
 	?>
-    <div class="background">
     <div class="container">
         <div class="col-md-3">
             <div class="leftSide">
@@ -57,7 +56,7 @@
        <div class="col-md-9">
             <div class="rightside">
             <h3 class="item_title">Courses Offered</h3>
-            <div class="about">
+            <div class="newClass"  style="padding-top:3px;">
             <table class="table table-bordered">
                 <thead>
                     <tr>
@@ -110,7 +109,6 @@
         </div>
        </div>
     </div>
-</div>
     <?php include 'footer.php' ?>
     <script src="./script.js"></script>
 

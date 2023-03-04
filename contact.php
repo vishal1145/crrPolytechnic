@@ -11,7 +11,6 @@
 <?php
 	include 'header.php';
 	?>
-    <div class="background">
     <div class="container">
         <div class="col-md-3">
             <div class="leftSide">
@@ -90,7 +89,7 @@
        <div class="col-md-9">
             <div class="rightside">
                 <h3 class="item_title">Contact Us</h3>
-                <div class="about">
+                <div class="newClass">
                 <div class="item_fulltext">
                     <div style="width: 100%;">
                         <div style="width: 50%; float: left;">
@@ -118,7 +117,7 @@
         </div>
        </div>
     </div>
-</div>
+
     <?php include 'footer.php' ?>
     <script src="./script.js"></script>
 

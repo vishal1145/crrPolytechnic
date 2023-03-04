@@ -90,7 +90,7 @@
        <div class="col-md-9">
             <div class="rightside">
                 <h3 class="item_title">Extra Curricular Activities</h3>
-                <div class="about">
+                <div class="newClass">
                 
 				<p>
                 Sports:-<br>
@@ -98,8 +98,8 @@
                 Women Students&#39; Conducted Regularly. CRRPOLY Staff &amp; students Tournament Also Organized. The Facilities Available for The Students And
                 Staff Are:<br>
                
-                </p>
-                <ul class="fordotted">
+                </p><br>
+                <ul class="fordotted" style="padding:0px 15px;">
                     <li class="myclass">Cricket Ground</li>
                     <li class="myclass">Basket Ball Court</li>
                     <li class="myclass">Volley Ball Court</li>

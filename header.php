@@ -51,7 +51,7 @@
 				<li class="nav-item menu__item">
 					<!-- <a class="nav-link menu__link " href="./academy.php">Academics</a> -->
 					<div class="dropdown show">
-					<a class="nav-link menu__link btn btn-secondary dropdown-toggle" href="./academy.php">
+					<a class="nav-link menu__link" href="./academy.php">
 					Academics
 						<i class="fa fa-angle-down"></i>
 					</a>
@@ -68,7 +68,7 @@
 				<li class="nav-item menu__item">
 					<!-- <a class="nav-link menu__link " href="./department.php">Departments</a> -->
 					<div class="dropdown show">
-					<a class="nav-link menu__link btn btn-secondary dropdown-toggle" href="./department.php">
+					<a class="nav-link menu__link" href="./department.php">
 					Departments
 						<i class="fa fa-angle-down"></i>
 					</a>
@@ -87,7 +87,7 @@
 				</li>
 				<li class="nav-item menu__item">
 					<div class="dropdown show">
-					<a class="nav-link menu__link btn btn-secondary dropdown-toggle" href="./facilities.php">
+					<a class="nav-link menu__link" href="./facilities.php">
 						Facilities
 						<i class="fa fa-angle-down"></i>
 					</a>

@@ -5,6 +5,9 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 /* reset */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Raleway:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 ol,ul{list-style:none; margin:0px;padding:0px;}
@@ -32,10 +35,10 @@ body{
  background:#fff;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
 }
 body p{
-	font-family: 'Source Sans Pro', sans-serif;
+	/* font-family: 'Source Sans Pro', sans-serif; */
 }
 	
 ul ,ol {
@@ -2877,7 +2880,7 @@ img{
 	display: flex;
     width: 100%;
     /* justify-content: space-around; */
-    padding-bottom: 20px;
+    padding-bottom: 8px;
 	padding-top: 8px;
 	justify-content: center;
     gap: 40px;
@@ -2984,10 +2987,11 @@ img{
 .module_title{
 	font-size: 20px;
 	border-bottom: 3px solid #3c023c;
-	margin-top: 10px;
+	margin-top: 18px;
 	margin-bottom: 20px;
 	padding-bottom: 10px;
 	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
 }
 .mod-menu ul li{
 	padding-left: 5px;
@@ -3011,16 +3015,25 @@ img{
 	display: flex;
 	gap: 10px;
 	align-items: center;
+	font-family: 'PT Serif', serif;
 }
 .mod-menu ul li a span{
-	margin-right: 12px;
+	margin-left: 12px;
 	font-size: 10px;
 
 }
 .item_title{
-	margin: 10px 0 20px;
+	/* margin: 10px 0 10px;
 	font-size: 20px;
 	font-weight: 600;
+	margin-top: 18px; */
+	font-size: 20px;
+    /* border-bottom: 3px solid #3c023c; */
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+	font-family: 'Raleway', sans-serif;
 }
 .fordotted{
 	list-style: disc !important;
@@ -3033,9 +3046,13 @@ img{
 }
 th{
 	text-align: center;
+	font-family: 'PT Serif ' !important;
+    font-size: 12pt !important;
 }
 td{
 	text-align: center;
+	font-family: 'PT Serif' !important;
+    font-size: 12pt !important;
 }
 .fa-angle-down{
 	font-size: 12px !important;
@@ -3093,7 +3110,7 @@ td{
 	width: 300px !important;
 }
 .background{
-	background: rgba(238, 238, 238, 0.88);
+	/* background: rgba(238, 238, 238, 0.88); */
 }
   @media (min-width:768px) and (max-width:991px){
 	.links ul li a{
@@ -3222,4 +3239,19 @@ td{
 .grid{
 	display: flex;
 	gap: 20px;
+}
+
+.newClass{
+	font-family: 'PT Serif', serif;
+	font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #000000;
+	margin-bottom: 30px;
+}
+.forcolor{
+	color: #000080;
+}
+.margin-top{
+	margin-top: 4px;
 }

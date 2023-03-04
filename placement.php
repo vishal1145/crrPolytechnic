@@ -45,7 +45,7 @@
         <div class="col-md-9">
             <div class="rightside">
                 <h3 class="item_title">About T&P</h3>
-                <div class="about">
+                <div class="newClass">
                 
 				<p>
                 Training &amp; Placement cell functions with an objective of creating ample career opportunities
