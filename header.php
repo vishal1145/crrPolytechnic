@@ -55,12 +55,12 @@
 					Academics
 						<i class="fa fa-angle-down"></i>
 					</a>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="#">Courses offered</a>
-						<a class="dropdown-item" href="#">Curricillum</a>
-						<a class="dropdown-item" href="#">Results</a>
-						<a class="dropdown-item" href="#">Notification</a>
-						<a class="dropdown-item1" href="#">Polycet Previous Papers</a>
+					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">COURSES OFFERED</a>
+						<a class="dropdown-item" href="#">CURRICILLUM</a>
+						<a class="dropdown-item" href="#">RESULT</a>
+						<a class="dropdown-item" href="#">NOTIFICATION</a>
+						<a class="dropdown-item1" href="#">POLYCET PREVIOUS PAPERS</a>
 
 					</div>
 					</div>
@@ -91,25 +91,51 @@
 						Facilities
 						<i class="fa fa-angle-down"></i>
 					</a>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="#">Class Rooms</a>
-						<a class="dropdown-item" href="#">Seminar Hall</a>
-						<a class="dropdown-item" href="#">Library</a>
-						<a class="dropdown-item" href="#">Sports & Games</a>
-						<a class="dropdown-item" href="#">Transportation</a>
-						<a class="dropdown-item" href="#">Hostels</a>
-						<a class="dropdown-item" href="#">Canteen</a>
-						<a class="dropdown-item" href="#">Browsing Center</a>
-						<a class="dropdown-item" href="#">Language Lab</a>
-						<a class="dropdown-item1" href="#">Water Purification System</a>
+					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">CLASS ROOMS</a>
+						<a class="dropdown-item" href="#">SEMINAR HALL</a>
+						<a class="dropdown-item" href="#">LIBRARY</a>
+						<a class="dropdown-item" href="#">SPORTS & GAMES</a>
+						<a class="dropdown-item" href="#">TRANSPORTATION</a>
+						<a class="dropdown-item" href="#">HOSTELS</a>
+						<a class="dropdown-item" href="#">CANTEEN</a>
+						<a class="dropdown-item" href="#">BROWSING CENTER</a>
+						<a class="dropdown-item" href="#">LANGUAGE LAB</a>
+						<a class="dropdown-item1" href="#">WATER PURIFICATION SYSTEM</a>
 					</div>
 					</div>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link" href="./placement.php">Placements</a>
+				<div class="dropdown show">
+					<a class="nav-link menu__link" href="./placement.php">
+						Placements
+						<i class="fa fa-angle-down"></i>
+					</a>
+					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">ABOUT T&P</a>
+						<a class="dropdown-item" href="#">INTERACTION CELL</a>
+						<a class="dropdown-item" href="#">OUR RECRUITERS</a>
+					</div>
+					</div>
 				</li>
 				<li class="nav-item menu__item">
-					<a class="nav-link menu__link" href="./campus.php">Campus life</a>
+				<div class="dropdown show">
+					<a class="nav-link menu__link" href="./campus.php">Campus life
+					<i class="fa fa-angle-down"></i>
+					</a>
+					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">EXTRA CURRICULAR ACTIVITIES</a>
+						<a class="dropdown-item" href="#">CO CURRICULAR ACTIVITIES</a>
+						<a class="dropdown-item" href="#">ALUMNI ASSOCIATION</a>
+						<a class="dropdown-item" href="#">AIMS AND OBJECTIVE</a>
+						<a class="dropdown-item" href="#">ALUMNI REGISTRATION</a>
+						<a class="dropdown-item" href="#">ALUMNI DIRECTORY</a>
+						<a class="dropdown-item" href="#">ALUMNI ACTIVITIES</a>
+						<a class="dropdown-item" href="#">EVENTS</a>
+						<a class="dropdown-item" href="#">LANGUAGE LAB</a>
+						<a class="dropdown-item1" href="#">ANTI RAGGING POLICY</a>
+					</div>
+					</div>
 				</li>
 				<li class="nav-item menu__item">
 					<a class="nav-link menu__link " href="./contact.php">Contact us</a>
@@ -133,7 +159,7 @@ const $dropdown = $(".dropdown");
 				const $dropdownMenu = $(".dropdown-menu");
 				const showClass = "show";
 				$(window).on("load resize", function() {
-				if (this.matchMedia("(min-width: 768px)").matches) {
+				if (this.matchMedia("(min-width: 992px)").matches) {
 					$dropdown.hover(
 					function() {
 						const $this = $(this);
