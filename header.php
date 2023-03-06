@@ -30,10 +30,11 @@
 		<div class="d-flex clgLogo">
 			<img src="./clgImages/CRRlogo.jpeg" alt="">
 			<div class="text-center navbarClgName">
-				<h2>Sir C.R.R. Polytechnic</h2>
-				<p>VATLURU, ELURU,</p>
-				<p>ANDHRA PRADESH 534007</p>
+				<h2>SIR C R REDDY POLYTECHNIC,VATLURU</h2>
+				<p>AFFILIATED TO SBTET,APPROVED BY AICTE ESTD-1980</p>
+				
 			</div>
+			<div class="clgCode"><p>CODE-CRRE</p></div>
 			
 		</div>
 		<div class="barIcon"  onclick="myFunction()">

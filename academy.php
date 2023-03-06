@@ -2,7 +2,7 @@
 <head>
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
@@ -11,7 +11,7 @@
 <?php
 	include 'header.php';
 	?>
-    <div class="container">
+    <div class="container height">
         <div class="col-md-3">
             <div class="leftSide">
                <h3 class="module_title">Academics</h3>
@@ -69,37 +69,33 @@
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>CIVIL ENGINEERING</td>
+                        <td>Civil Engineering</td>
                         <td>60</td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
-                        <td>COMPUTER ENGINEERING</td>
+                        <td>Computer Engineering</td>
                         <td>120</td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
-                        <td>ELECTRONICS AND COMMUNICATION ENGINEERING</td>
+                        <td>Electronics And Communication Engineering</td>
                         <td>240</td>
                     </tr>
                     <tr>
                         <th scope="row">4</th>
-                        <td>ELECTRICAL AND ELECTRONICS ENGINEERING</td>
+                        <td>Electrical And Electronics Engineering</td>
                         <td>120</td>
                     </tr>
+                   
                     <tr>
                         <th scope="row">5</th>
-                        <td>ELECTRICAL AND ELECTRONICS ENGINEERING</td>
-                        <td>120</td>
+                        <td>Artifical Intelligence And Machine Learning Engineering</td>
+                        <td>60</td>
                     </tr>
                     <tr>
                         <th scope="row">6</th>
-                        <td>ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING ENGINEERING</td>
-                        <td>120</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">7</th>
-                        <td>COMMUNICATION ANDCOMPUTER NETWORKS ENGINEERING</td>
+                        <td>Communication And Computer Networks Engineering</td>
                         <td>120</td>
                     </tr>
                 </tbody>

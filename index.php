@@ -274,7 +274,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					</div>
 				</div>
 				<div class="w3-img">
-					<img src="images/abt.png" alt="image" />
+					<img src="images/cse2.jpeg" alt="image" />
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -423,7 +423,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!--// opening -->
 
 	<!--faculty-->
-	<div class="w3-faculty" id="faculties">
+	<!-- <div class="w3-faculty" id="faculties">
 		<div class="container">
 			<div class="faculty-head">
 				<h5>our great faculties</h5>
@@ -434,74 +434,74 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<div class="f1 col-md-3 faculty1">
 					<ul class="demo-2 effect">
 						<li>
-							<h3 class="zero">COMPUTER SCIENCE</h3>
+							<h3 class="zero">COMPUTER SCIENCE</h3> -->
 							<!-- <p class="zero">Lorem ipsum dolor sit amet.</p> -->
-						</li>
+						<!-- </li>
 						<li><img class="top" src="images/P.Murali [B.Technician] [B.Tech].jpg" alt="" /></li>
 					</ul>
-					<h4>P.Murali</h4>
+					<h4>P.Murali</h4> -->
 					<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
 					<!-- <div class="social-icons">
 						<i class="s1 fa fa-facebook" aria-hidden="true"></i>
 						<i class="s2 fa fa-twitter" aria-hidden="true"></i>
 						<i class="s3 fa fa-google" aria-hidden="true"></i>
 					</div> -->
-				</div>
+				<!-- </div>
 				<div class="f2 col-md-3 faculty1">
 					<ul class="demo-2 effect">
 						<li>
-							<h3 class="zero">ELECTRICAL AND ELECTRONICS ENGINEERING</h3>
+							<h3 class="zero">ELECTRICAL AND ELECTRONICS ENGINEERING</h3> -->
 							<!-- <p class="zero">Lorem ipsum dolor sit amet.</p> -->
-						</li>
+						<!-- </li>
 						<li><img class="top" src="images/M.Sarath babu[ M.Tech].jpg" alt="" /></li>
-					</ul>
-					<h4>M.Sarath babu</h4>
+					</ul> -->
+					<!-- <h4>M.Sarath babu</h4> -->
 					<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
 					<!-- <div class="social-icons">
 						<i class=" s1 fa fa-facebook" aria-hidden="true"></i>
 						<i class=" s2 fa fa-twitter" aria-hidden="true"></i>
 						<i class=" s3 fa fa-google" aria-hidden="true"></i>
 					</div> -->
-				</div>
-				<div class="f3 col-md-3 faculty1">
+				<!-- </div> -->
+				<!-- <div class="f3 col-md-3 faculty1">
 					<ul class="demo-2 effect">
 						<li>
-							<h3 class="zero">CIVIL ENGINEERING</h3>
+							<h3 class="zero">CIVIL ENGINEERING</h3> -->
 							<!-- <p class="zero">Lorem ipsum dolor sit amet.</p> -->
-						</li>
-						<li><img class="top" src="images/A gayatri devi [B. Tech].jpg" alt="" /></li>
-					</ul>
-					<h4>A gayatri devi</h4>
+						<!-- </li>
+						<li><img class="top" src="images/A gayatri devi [B. Tech].jpg" alt="" /></li> -->
+					<!-- </ul>
+					<h4>A gayatri devi</h4> -->
 					<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
 					<!-- <div class="social-icons">
 						<i class=" s1 fa fa-facebook" aria-hidden="true"></i>
 						<i class=" s2 fa fa-twitter" aria-hidden="true"></i>
 						<i class=" s3 fa fa-google" aria-hidden="true"></i>
 					</div> -->
-				</div>
+				<!-- </div>
 				<div class="f4 col-md-3 faculty1">
 					<ul class="demo-2 effect">
 						<li>
-							<h3 class="zero">ELECTRONICS AND COMMUNICATION ENGINEERING	</h3>
+							<h3 class="zero">ELECTRONICS AND COMMUNICATION ENGINEERING	</h3> -->
 							<!-- <p class="zero">Lorem ipsum dolor sit amet.</p> -->
-						</li>
+						<!-- </li>
 						<li><img class="top" src="images/Sk. Howldhar [M.Tech].jpg" alt="" /></li>
 					</ul>
-					<h4>Sk. Howldhar</h4>
+					<h4>Sk. Howldhar</h4> -->
 					<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
 					<!-- <div class="social-icons">
 						<i class="s1 fa fa-facebook" aria-hidden="true"></i>
 						<i class="s2 fa fa-twitter" aria-hidden="true"></i>
 						<i class="s3 fa fa-google" aria-hidden="true"></i>
 					</div> -->
-				</div>
+				<!-- </div>
 
 				<div class="clearfix"></div>
 			</div>
 
-		</div>
+		</div> -->
 		
-	</div>
+	<!-- </div> -->
 	<!-- <div class="about society">
 
 		<h2 class="text-center">About Society</h2>
@@ -581,8 +581,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<h6>contact us</h6>
 			<ul>
 				<li><i class="fa fa-envelope" aria-hidden="true"></i><a
-						href="mailto:info@example.com">CRRpolytechnic.com</a></li>
-				<li><i class="fa fa-phone" aria-hidden="true"></i>+2158 85467</li>
+						href="mailto:info@example.com">principal.crrpoly@gmail.com</a></li>
+				<li><i class="fa fa-phone" aria-hidden="true"></i>9912342028
+</li>
 				<li><i class="fa fa-map-marker" aria-hidden="true"></i>VATLURU, ELURU,
 					<span>ANDHRA PRADESH 534007</span>
 				</li>
@@ -591,9 +592,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 		<div class="right-contact">
 			<div class="map">
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d56049.676313757824!2d77.31281919999999!3d28.5966336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1675858667613!5m2!1sen!2sin"
-					frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28020.860378185134!2d77.36036945398327!3d28.611548049752848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1678093230657!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				<!-- <iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5662244.714693903!2d-2.279153484594319!3d46.13545249359953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2sIndia!5e0!3m2!1sen!2sin!4v1471606088687"
 					frameborder="0" style="border:0" allowfullscreen></iframe> -->

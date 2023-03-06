@@ -2,7 +2,7 @@
 <head>
    
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
@@ -11,7 +11,7 @@
 <?php
 	include 'header.php';
 	?>
-    <div class="container">
+    <div class="container height">
         <div class="col-md-3">
             <div class="leftSide">
                <h3 class="module_title">About Us</h3>
@@ -90,28 +90,25 @@
             <div class="rightside">
                 <h3 class="item_title">Contact Us</h3>
                 <div class="newClass">
-                <div class="item_fulltext">
-                    <div style="width: 100%;">
-                        <div style="width: 50%; float: left;">
-                            <h3 style="text-decoration: underline; color: purple; padding-top: 0.1cm; font-size: 14pt; padding-bottom: 0px; text-align: justify; margin-bottom: 0px;" align="left"><span style="font-family: 'book antiqua', palatino, serif; font-size: 14pt;">Address for Communication:</span></h3>
-                            <p style="padding: 0px;">&nbsp;</p>
-                            <p style="padding: 0px;"><span style="font-size: 12pt; color: #000000;"><strong><span style="font-family: 'book antiqua', palatino, serif;">Sir C. R. Reddy College of Engineering</span></strong></span></p>
-                            <p style="padding: 0px;"><span style="font-size: 12pt; color: #000000;"><strong><span style="font-family: 'book antiqua', palatino, serif;">ELURU-534007,W.G.DIST.,A.P.</span></strong></span></p>
-                            <p style="padding: 0px;"><span style="font-size: 12pt; color: #000000;"><strong><span style="font-family: 'book antiqua', palatino, serif;">PH:- 08812 230840&nbsp;</span></strong></span></p>
-                            <p style="padding: 0px;"><span style="font-size: 12pt; color: #000000;"><strong><span style="font-family: 'book antiqua', palatino, serif;">FAX:- 08812-224193</span></strong></span></p>
-                            <p style="padding: 0px;">&nbsp;</p>
-                            <p style="padding: 0px;"><span style="font-size: 14pt; color: #000080;"><strong><span style="font-family: 'book antiqua', palatino, serif;">For Admissions Contact: 9493830840, 8985384116</span></strong></span></p>
-                            <p style="padding: 0px;">&nbsp;</p>
-                            <p style="padding: 0px;"><strong>&nbsp;</strong></p>
-                        </div>
-                    </div>
-                </div>
-                <div style="width: 50%; float: left; text-align: justify;">
-                <h3 style="text-decoration: underline; color: purple; padding-top: 0.1cm; font-size: 14pt; padding-bottom: 0px; margin-bottom: 0px;" align="left"><span style="font-size: 14pt;"><strong><span style="font-family: 'book antiqua', palatino, serif;">Principal:</span></strong></span></h3>
-                <p style="padding: 0px;"><strong>&nbsp;</strong></p>
-                <p style="padding: 0px;"><span style="font-size: 12pt;"><strong><span style="color: #000080;"><span style="font-family: 'book antiqua', palatino, serif;">Dr. K. Venkateswara Rao&nbsp;M.Tech., Ph.D</span></span></strong></span></p>
-                <p style="padding: 0px; color: black; padding-top: 0.1cm;" align="left"><span style="font-size: 12pt;"><strong><span style="font-family: 'book antiqua', palatino, serif;">Sir C. R. Reddy College of Engineering</span></strong></span></p>
-            </div>
+                
+                    
+                       
+                            <h3 class="item_title forcolor">Address for Communication:</h3>
+                            <p>Sir C. R. Reddy College of Engineering</p>
+                            <p>ELURU-534007,W.G.DIST.,A.P.</p>
+                            <p>PH:- 08812 230840&nbsp;</p>
+                            <p>FAX:- 08812-224193</p>
+                            
+                
+              
+                <h3 class="item_title forcolor">Principal:</h3>
+                
+                <h3 class="priSpan">Principal Sri. AKKINENI.SIVA KUMAR,<small> B.E,M.Tech</small></h3>
+                <p>SIR C R REDDY POLYTECHNIC</p>
+                <!-- <h3 class="item_title forcolor">For Admissions Contact: <span>9493830840, 8985384116</span> -->
+
+</h3>
+          
                 </div>
             </div>
         </div>
