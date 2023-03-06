@@ -96,7 +96,7 @@
                     <tr>
                         <th scope="row">6</th>
                         <td>Communication And Computer Networks Engineering</td>
-                        <td>120</td>
+                        <td>60</td>
                     </tr>
                 </tbody>
             </table>
