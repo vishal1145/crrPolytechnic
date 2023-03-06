@@ -2,7 +2,7 @@
 <head>
    
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
@@ -13,7 +13,7 @@
 	include 'header.php';
 	?>
     <div class="background">
-    <div class="container">
+    <div class="container height">
         <div class="col-md-3">
             <div class="leftSide">
                <h3 class="module_title">Campus life</h3>
