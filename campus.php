@@ -97,8 +97,7 @@
                 <h3 class="item_title">Extra Curricular Activities</h3>
                 <div class="newClass">
                 
-				<p>
-                Sports:-<br>
+				<h3 class="item_title forcolor">Sports:-</h3>
                 Full Time Physical Director Is Appointed, To Organize Physical Education Activities In The Polytechnic. IPSGM Sports Meet For Men And
                 Women Students&#39; Conducted Regularly. CRRPOLY Staff &amp; students Tournament Also Organized. The Facilities Available for The Students And
                 Staff Are:<br>
