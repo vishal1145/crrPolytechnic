@@ -1691,6 +1691,10 @@ i.s3{
 	}
 	.clgLogo{
 		gap: 12px;
+		align-items: center;
+	}
+	.clgCode{
+		display: none;
 	}
 }
 @media(max-width:736px){
@@ -3098,8 +3102,8 @@ td{
 
 @media(max-width:767px){
 	.navbarClgName h2{
-		font-size: 24px;
-		line-height: 34px;
+		font-size: 20px;
+		line-height: 30px;
 	}
 	.forFlex{
 		display: flex;
@@ -3114,7 +3118,7 @@ td{
 		justify-content: normal;
 	}
 	.navbarClgName p{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.clgLogo img{
 		width: 60px;
