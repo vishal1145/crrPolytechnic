@@ -3132,7 +3132,9 @@ td{
 		display: block !important;
 	}
 }
-
+.yash{
+	color:red;
+}
 .forwidth{
 	width: 300px !important;
 }
@@ -3172,6 +3174,11 @@ td{
 	}
 	.show{
 		padding-top: 2px;
+	}
+	.clgCode{
+		bottom: 0 !important;
+		right: unset !important;
+		top: unset !important;
 	}
 	
   }
@@ -3234,6 +3241,10 @@ td{
 	}
 	.rslides img{
 		height: auto !important;
+	}
+	.clgCode{
+		right: 28px !important;
+		top: 23px !important;
 	}
 }
 @media (min-width:1201px) and (max-width:1400px){
@@ -3305,4 +3316,11 @@ td{
  }
  .padding-left{
 	padding-left: 15px !important;
+ }
+ .orderList{
+	list-style: auto;
+	padding-left: 18px;
+ }
+ .orderList li{
+	margin-bottom: 8px;
  }

@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/style.css">
+	<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<title>Document</title>
@@ -69,18 +70,19 @@
 				<li class="nav-item menu__item">
 					<!-- <a class="nav-link menu__link " href="./department.php">Departments</a> -->
 					<div class="dropdown show">
-					<a class="nav-link menu__link" href="./department.php">
+					<a class="nav-link menu__link" href="./ceDepartment.php">
 					Departments
 						<i class="fa fa-angle-down"></i>
 					</a>
 					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="./department.php">CIVIL ENGINEERING</a>
-						<a class="dropdown-item" href="./department.php">COMPUTER ENGINEERING 120</a>
-						<a class="dropdown-item" href="./department.php">ELECTRONICS AND COMMUNICATION ENGINEERING</a>
-						<a class="dropdown-item" href="./department.php">ELECTRICAL AND ELECTRONICS ENGINEERING</a>
-						<a class="dropdown-item" href="./department.php">MECHANICAL ENGINEERING 120</a>
+						
+						<a class="dropdown-item" href="./ceDepartment.php">COMPUTER ENGINEERING 120</a>
+						<a class="dropdown-item" href="./eceDepartment.php">ELECTRONICS AND COMMUNICATION ENGINEERING</a>
+						<a class="dropdown-item" href="./eeeDepartment.php">ELECTRICAL AND ELECTRONICS ENGINEERING</a>
+						<a class="dropdown-item" href="./mechDepartment.php">MECHANICAL ENGINEERING 120</a>
 						<a class="dropdown-item" href="./department.php">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING ENGINEERING</a>
 						<a class="dropdown-item1" href="./department.php">COMMUNICATION AND COMPUTER NETWORKS ENGINEERING</a>
+						<a class="dropdown-item" href="./department.php">CIVIL ENGINEERING</a>
 
 
 					</div>
