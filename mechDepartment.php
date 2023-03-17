@@ -17,7 +17,7 @@
     <div class="container height">
         <div class="col-md-3">
             <div class="leftSide">
-               <h3 class="module_title">MECHANICAL ENGINEERING </h3>
+               <h3 class="module_title">ME</h3>
                <div class="mod-menu">
                 <ul class="nav">
                    <li>
