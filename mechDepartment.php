@@ -21,19 +21,19 @@
                <div class="mod-menu">
                 <ul class="nav">
                    <li>
-                        <a href="mechepartment.php">
+                        <a href="mechDepartment.php">
                             <span><i class="fa-solid fa-play"></i></span>
                             ME Home
                         </a>
                    </li>
                    <li>
-                        <a  id="myAnchor" onclick="loadDoc('eeeteachingfaculty.html')">
+                        <a  id="myAnchor" onclick="loadDoc('mech_teachingfaculty.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             ME Teaching Faculty
                         </a>
                    </li>
                    <li>
-                        <a  id="myAnchor" onclick="loadDoc('eeenonTeachingFaculty.html')">
+                        <a  id="myAnchor" onclick="loadDoc('mech_non_teachingfaculty.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             ME-Non Teaching Faculty
                         </a>
@@ -45,19 +45,19 @@
                         </a>
                    </li>
                    <li>
-                        <a id="myAnchor" onclick="loadDoc('eeeStudentInfo.html')">
+                        <a id="myAnchor" onclick="loadDoc('ME_Student_info.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Student Info
                         </a>
                    </li>
                    <li>
-                        <a id="myAnchor" onclick="loadDoc('eeeGallery.html')">
+                        <a id="myAnchor" onclick="loadDoc('megallery.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Gallery
                         </a>
                    </li>
                    <li>
-                        <a id="myAnchor" onclick="loadDoc('carrerOppoEEE.html')">
+                        <a id="myAnchor" onclick="loadDoc('carrerOppoME.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Carrer Opportunities
                         </a>
@@ -72,11 +72,30 @@
             <div class="rightside">
                 <h3 class="item_title">About Department</h3>
                 <div class="newClass">
-                
 				<p>
-                Mechanical Engineering is a diverse and exciting field that involves designing, developing, and maintaining various mechanical systems and components. Some of the rare and highly specialized branches within this field include:
+                Mechanical Engineering is a diverse and exciting field that involves designing,
+                developing, and maintaining various mechanical systems and components.
+                Some of the rare and highly specialized branches within this field include:
 				</p><br>
-                
+                <ul class="fordotted" style="padding:0px 15px;">
+                    <li class="myclass">Mechatronics - combines mechanical, electrical and computer engineering to design and control complex systems.</li>
+                    <li class="myclass">Biomechanics - applies the principles of mechanics to study biological systems and improve medical treatments.</li>
+                    <li class="myclass">Nanomechanics - focuses on the behaviour of materials and structures at the nanoscale level.</li>
+                    <li class="myclass">Energy Systems - deals with the design, development and optimization of energy conversion and utilization systems.</li>
+                    <li class="myclass">These branches provide a wealth of opportunities for students to specialize in areas that align with their interests and career goals. With the increasing demand for sustainable and innovative solutions in various industries, graduates with expertise in these rare branches are highly sought after.</li>
+                    <li class="myclass">Robotics - involves designing and developing robots for various applications in different industries.</li>
+                    <li class="myclass">Aerospace Engineering - deals with the design, development, and production of aircraft and spacecraft.</li>
+                    <li class="myclass">Materials Science and Engineering - focuses on the study of materials properties and behavior, and the development of new materials.</li>
+                </ul>
+                <p> 
+                    <h3 class="item_title forcolor">
+                        MECHANICAL ENGINEERING
+                    </h3>
+                </p>
+                <ul class="fordotted" style="padding:0px 15px;">
+                    <li class="myclass">Mechanical engineering is an engineering discipline that combines engineering physics and mathematics principles with materials science to design, analyze, manufacture, and maintain mechanical systems. It is one of the oldest and broadest of the engineering disciplines.</li>
+                    <li class="myclass">The mechanical engineering field requires an understanding of core areas including mechanics, dynamics, thermodynamics, materials science, structural analysis, and electricity. In addition to these core principles, mechanical engineers use tools such as computer-aided design (CAD), computer-aided manufacturing (CAM), and product lifecycle management to design and analyze manufacturing plants, industrial equipment and machinery, heating and cooling systems, transport systems, aircraft, watercraft, robotics, medical devices, weapons, and others. It is the branch of engineering that involves the design, production, and operation of machinery.</li>
+                </ul>
                 </div>
             </div>
         </div>
