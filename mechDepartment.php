@@ -38,12 +38,12 @@
                             ME-Non Teaching Faculty
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('cseLibrary.html')" >
                             <span><i class="fa-solid fa-play"></i></span>
                             Department Library
                         </a>
-                   </li>
+                   </li> -->
                    <li>
                         <a id="myAnchor" onclick="loadDoc('ME_Student_info.html')">
                             <span><i class="fa-solid fa-play"></i></span>
@@ -53,15 +53,15 @@
                    <li>
                         <a id="myAnchor" onclick="loadDoc('megallery.html')">
                             <span><i class="fa-solid fa-play"></i></span>
-                            Gallery
+                            Laboratories
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('carrerOppoME.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Carrer Opportunities
                         </a>
-                   </li>
+                   </li> -->
                 </ul>
                </div>
             </div>
@@ -96,6 +96,14 @@
                     <li class="myclass">Mechanical engineering is an engineering discipline that combines engineering physics and mathematics principles with materials science to design, analyze, manufacture, and maintain mechanical systems. It is one of the oldest and broadest of the engineering disciplines.</li>
                     <li class="myclass">The mechanical engineering field requires an understanding of core areas including mechanics, dynamics, thermodynamics, materials science, structural analysis, and electricity. In addition to these core principles, mechanical engineers use tools such as computer-aided design (CAD), computer-aided manufacturing (CAM), and product lifecycle management to design and analyze manufacturing plants, industrial equipment and machinery, heating and cooling systems, transport systems, aircraft, watercraft, robotics, medical devices, weapons, and others. It is the branch of engineering that involves the design, production, and operation of machinery.</li>
                 </ul>
+                <h3 class="item_title forcolor">Career Opportunities</h3>
+                <div class="newClass">
+                    <ul class="fordotted" style="padding:0px 15px;">
+                        <li class="myclass">The American novelist, James A. Michener, said: “Scientists dream about doing great things. Engineers do them.” This is certainly the case with mechanical engineers. These guys are the people that create and build the machines, tools, equipment and mechanical devices that make the world go round. Sounds pretty important, doesn’t it?</li>
+                        <li class="myclass">Mechanical engineering is one of the broadest specialist subsectors in the world of engineering. The skills of mechanical engineers are needed in a huge range of industries, such as robotics, aerospace, defence, manufacturing and civil engineering.</li>
+                        <li class="myclass">Mechanical engineers use their creativity, technical skills, practical abilities and scientific knowledge to design, manufacture and maintain every kind of mechanical device imaginable: from small components, such as precise medical devices (e.g. pacemakers), to large machinery, such as cooling systems in nuclear power plants and jet engines in aeroplanes. Their expertise is essential throughout the research, design, planning, production, testing, installation and maintenance of mechanical devices.</li>
+                    </ul>
+                </div>
                 </div>
             </div>
         </div>

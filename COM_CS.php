@@ -38,12 +38,12 @@
                             CCN-Non Teaching Faculty
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('cseLibrary.html')" >
                             <span><i class="fa-solid fa-play"></i></span>
                             Department Library
                         </a>
-                   </li>
+                   </li> -->
                    <li>
                         <a id="myAnchor" onclick="loadDoc('CCN_StudentInfo.html')">
                             <span><i class="fa-solid fa-play"></i></span>
@@ -53,15 +53,15 @@
                    <li>
                         <a id="myAnchor" onclick="loadDoc('cnGallery.html')">
                             <span><i class="fa-solid fa-play"></i></span>
-                            Gallery
+                            Laboratories
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('carrerOppoAL_ML.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Carrer Opportunities
                         </a>
-                   </li>
+                   </li> -->
                 </ul>
                </div>
             </div>

@@ -3286,6 +3286,7 @@ td{
     font-weight: 400;
     color: #000000;
 	margin-bottom: 30px;
+	text-align: justify !important;
 }
 .forcolor{
 	color: #000080;
@@ -3324,3 +3325,4 @@ td{
  .orderList li{
 	margin-bottom: 8px;
  }
+ 

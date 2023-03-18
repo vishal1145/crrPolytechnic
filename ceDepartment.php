@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <style>
+        .justify{
+            text-align: justify !important;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
@@ -38,12 +43,12 @@
                             CSE-Non Teaching Faculty
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('cseLibrary.html')" >
                             <span><i class="fa-solid fa-play"></i></span>
                             Department Library
                         </a>
-                   </li>
+                   </li> -->
                    <li>
                         <a id="myAnchor" onclick="loadDoc('csStudentInfo.html')">
                             <span><i class="fa-solid fa-play"></i></span>
@@ -53,15 +58,15 @@
                    <li>
                         <a id="myAnchor" onclick="loadDoc('computerEngGallery.html')">
                             <span><i class="fa-solid fa-play"></i></span>
-                            Gallery
+                            Laboratories
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('carrerOppo.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Carrer Opportunities
                         </a>
-                   </li>
+                   </li> -->
                 </ul>
                </div>
             </div>
@@ -98,6 +103,29 @@
                 <p>The Department of Computer Science & Engineering started the DIPLOMA programme in Computer Science
                    and Engineering in the year <b>1992</b>. The programme started with an intake of 60 students. The intake was
                    increased to 120 in <b>2006</b>.</p>
+                <p><h3 class="item_title forcolor">COMPUTER SCIENCE ENGINEERING :-</h3></p>
+                <p>
+                    The Department of Computer Science & Engineering started the DIPLOMA programme in Computer Science and Engineering in the year1992. The programme started with an intake of 60 students. The intake was increased to 120 in 2006.
+                </p><br>
+                <p>
+                    The DIPLOMA.programme in Computer Science and Engineering has an average intake of 120 students per year. The Computer Science and Engineering Department spares no effort in imparting High Quality Education to its highly motivated students.
+                </p><br>
+                <p>
+                    The programme is supported by good infrastructure facilities.The.programme has good placement records every year. About 15% of the students pursue higher studies.                
+                </p><br>
+                <p><h3 class="item_title forcolor">Career Opportunities :-</h3></p>
+                <p>Ten big reasons to opt for Computer Science :-</p><br>
+                <ol style="list-style: auto; padding:0px 15px;" type="1" >
+                    <li>Computer Science is part of everything we do!</li><br>
+                    <li>Expertise in computing enables you to solve complex, challenging problems.</li><br>
+                    <li>Computer Science enables you to make a positive difference in the world.</li><br>
+                    <li>Computer Science offers many types of lucrative careers.</li><br>
+                    <li>Computer Science jobs are here to stay, regardless of where you are located.</li><br>
+                    <li>Expertise in Computer Science helps you even if your primary career choice is something else.</li><br>
+                    <li>Computer Science offers great opportunities for true creativity and innovativeness.</li><br>
+                    <li>Computer Science has space for both collaborative work and individual effort.</li><br>
+                    <li>Computer Science is an essential part of well-rounded academic preparation.</li><br>
+                </ol> 
                 </div>
             </div>
         </div>

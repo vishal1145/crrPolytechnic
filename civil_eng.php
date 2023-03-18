@@ -38,12 +38,12 @@
                             Civil-Non Teaching Faculty
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('cseLibrary.html')" >
                             <span><i class="fa-solid fa-play"></i></span>
                             Department Library
                         </a>
-                   </li>
+                   </li> -->
                    <li>
                         <a id="myAnchor" onclick="loadDoc('civil_StudentInfo.html')">
                             <span><i class="fa-solid fa-play"></i></span>
@@ -53,15 +53,15 @@
                    <li>
                         <a id="myAnchor" onclick="loadDoc('civilGallery.html')">
                             <span><i class="fa-solid fa-play"></i></span>
-                            Gallery
+                            Laboratories
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('carrerOppo_CIVIL.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Carrer Opportunities
                         </a>
-                   </li>
+                   </li> -->
                 </ul>
                </div>
             </div>
@@ -91,6 +91,42 @@
                     <p>
                     Civil engineering is the oldest and one of the most versatile branches of engineering. Every structure that we see around today is a creation of civil engineering. Civil engineers design, construct, supervise, operate, and maintain large construction projects and systems, including roads, buildings, airports, tunnels, dams, bridges, and systems for water supply and sewage treatment. Many civil engineers work in design, construction, research, and education.
                     </p>
+                    <p><h3 class="item_title forcolor">Career Opportunities :-</h3></p>
+                    <p style="font-weight: bold;">
+                        Construction Engineering -
+                    </p></br>
+                    <p>
+                        Construction engineers plan executes and manages the designs from structural, transportation and environmental engineers.
+                    </p><br>
+                    <p style="font-weight: bold;">
+                        Structural Engineering -
+                    </p></br>
+                    <p>
+                        Structural engineers design all types of structures like multistoried buildings, bridges, towers etc.
+                    </p><br>
+                    <p style="font-weight: bold;">
+                        Geotechnical Engineering -
+                    </p></br>
+                    <p>
+                        Geotechnical engineers design foundations for structures, retaining walls, subgrades for highway and airport pavements, and soil fills for dams and embankments. They design tunnels and offshore drilling platforms.                    </p><br>
+                    <p style="font-weight: bold;">
+                        Transportation Engineering -
+                    </p></br>
+                    <p>
+                        Transportation engineers are involved with planning, designing, construction, operation, and maintenance of the transportation infrastructure like highways, railways, airports etc                    </p><br>
+                    <p style="font-weight: bold;">
+                        Water Resource Engineering -
+                    </p></br>
+                    <p>
+                        These engineers deal with the design and construction of hydraulic structures which includes dams, canals and water distribution system.
+                    </p><br>
+                    <p style="font-weight: bold;">
+                        Environmental Engineering -
+                    </p></br>
+                    <p>
+                        Environmental engineers design, plan, and implement measures to prevent, control, or remediate environmental hazards. They  work on waste and  waste water treatment and pollution control technology.
+                    </p><br>
+
                 </div>
             </div>
         </div>

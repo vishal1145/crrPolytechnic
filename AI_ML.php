@@ -21,7 +21,7 @@
                <div class="mod-menu">
                 <ul class="nav">
                    <li>
-                        <a href="mechDepartment.php">
+                        <a href="">
                             <span><i class="fa-solid fa-play"></i></span>
                             AL & ML Home
                         </a>
@@ -38,12 +38,12 @@
                             AL & ML-Non Teaching Faculty
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('cseLibrary.html')" >
                             <span><i class="fa-solid fa-play"></i></span>
                             Department Library
                         </a>
-                   </li>
+                   </li> -->
                    <li>
                         <a id="myAnchor" onclick="loadDoc('AL_ML_StudentInfo.html')">
                             <span><i class="fa-solid fa-play"></i></span>
@@ -53,15 +53,15 @@
                    <li>
                         <a id="myAnchor" onclick="loadDoc('eeeGallery.html')">
                             <span><i class="fa-solid fa-play"></i></span>
-                            Gallery
+                            Laboratories
                         </a>
                    </li>
-                   <li>
+                   <!-- <li>
                         <a id="myAnchor" onclick="loadDoc('carrerOppoAL_ML.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Carrer Opportunities
                         </a>
-                   </li>
+                   </li> -->
                 </ul>
                </div>
             </div>

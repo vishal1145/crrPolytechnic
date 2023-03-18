@@ -32,7 +32,7 @@
 			<img src="./clgImages/CRRlogo.jpeg" alt="">
 			<div class="text-center navbarClgName">
 				<h2>SIR C R REDDY POLYTECHNIC, VATLURU</h2>
-				<p>AFFILIATED TO SBTET, APPROVED BY AICTE ESTD-1980</p>
+				<p>Approved by AICTE, Permanently Affiliated to SBTET, ESTD-1980</p>
 				
 			</div>
 			<div class="clgCode"><p>CODE-CRRE</p></div>
@@ -76,10 +76,10 @@
 					</a>
 					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
 						
-						<a class="dropdown-item" href="./ceDepartment.php">COMPUTER ENGINEERING 120</a>
+						<a class="dropdown-item" href="./ceDepartment.php">COMPUTER ENGINEERING</a>
 						<a class="dropdown-item" href="./eceDepartment.php">ELECTRONICS AND COMMUNICATION ENGINEERING</a>
 						<a class="dropdown-item" href="./eeeDepartment.php">ELECTRICAL AND ELECTRONICS ENGINEERING</a>
-						<a class="dropdown-item" href="./mechDepartment.php">MECHANICAL ENGINEERING 120</a>
+						<a class="dropdown-item" href="./mechDepartment.php">MECHANICAL ENGINEERING</a>
 						<a class="dropdown-item" href="./AI_ML.php">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING ENGINEERING</a>
 						<a class="dropdown-item" href="./COM_CS.php">COMMUNICATION AND COMPUTER NETWORKS ENGINEERING</a>
 						<a class="dropdown-item1" href="./civil_eng.php">CIVIL ENGINEERING</a>
