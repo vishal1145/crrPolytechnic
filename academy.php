@@ -88,14 +88,18 @@
                         <td>Electrical And Electronics Engineering</td>
                         <td>120</td>
                     </tr>
-                   
                     <tr>
                         <th scope="row">5</th>
+                        <td>MECHANICAL ENGINEERING</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
                         <td>Artifical Intelligence And Machine Learning Engineering</td>
                         <td>60</td>
                     </tr>
                     <tr>
-                        <th scope="row">6</th>
+                        <th scope="row">7</th>
                         <td>Communication And Computer Networks Engineering</td>
                         <td>60</td>
                     </tr>

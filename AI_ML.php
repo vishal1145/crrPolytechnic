@@ -51,7 +51,7 @@
                         </a>
                    </li>
                    <li>
-                        <a id="myAnchor" onclick="loadDoc('eeeGallery.html')">
+                        <a id="myAnchor" onclick="loadDoc('al_ml_gallery.html')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Laboratories
                         </a>

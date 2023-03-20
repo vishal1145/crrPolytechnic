@@ -29,7 +29,7 @@
 <div class="hlo">
 		<div class="forFlex">
 		<div class="d-flex clgLogo">
-			<img src="./clgImages/CRRlogo.jpeg" alt="">
+			<img src="./clgImages/CRR_logo.jpeg" alt="">
 			<div class="text-center navbarClgName">
 				<h2>SIR C R REDDY POLYTECHNIC, VATLURU</h2>
 				<p>Approved by AICTE, Permanently Affiliated to SBTET, ESTD-1980</p>
@@ -59,10 +59,10 @@
 					</a>
 					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
 						<a class="dropdown-item" href="./academy.php">COURSES OFFERED</a>
-						<a class="dropdown-item" href="./academy.php">CURRICILLUM</a>
-						<a class="dropdown-item" href="./academy.php">RESULT</a>
-						<a class="dropdown-item" href="./academy.php">NOTIFICATION</a>
-						<a class="dropdown-item1" href="./academy.php">POLYCET PREVIOUS PAPERS</a>
+						<a class="dropdown-item" href="./academy_curri.php">CURRICILLUM</a>
+						<a class="dropdown-item" href="./academy_result.php">RESULT</a>
+						<a class="dropdown-item" href="./academy_notif.php">NOTIFICATION</a>
+						<a class="dropdown-item1" href="./academy_polycet.php">POLYCET PREVIOUS PAPERS</a>
 
 					</div>
 					</div>
@@ -96,15 +96,15 @@
 					</a>
 					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
 						<a class="dropdown-item" href="./facilities.php">CLASS ROOMS</a>
-						<a class="dropdown-item" href="./facilities.php">SEMINAR HALL</a>
-						<a class="dropdown-item" href="./facilities.php">LIBRARY</a>
-						<a class="dropdown-item" href="./facilities.php">SPORTS & GAMES</a>
-						<a class="dropdown-item" href="./facilities.php">TRANSPORTATION</a>
-						<a class="dropdown-item" href="./facilities.php">HOSTELS</a>
-						<a class="dropdown-item" href="./facilities.php">CANTEEN</a>
-						<a class="dropdown-item" href="./facilities.php">BROWSING CENTER</a>
-						<a class="dropdown-item" href="./facilities.php">LANGUAGE LAB</a>
-						<a class="dropdown-item1" href="./facilities.php">WATER PURIFICATION SYSTEM</a>
+						<a class="dropdown-item" href="./facilities_seminar.php">SEMINAR HALL</a>
+						<a class="dropdown-item" href="./facilities_library.php">LIBRARY</a>
+						<a class="dropdown-item" href="./facilities_sports.php">SPORTS & GAMES</a>
+						<a class="dropdown-item" href="./facilities_trans.php">TRANSPORTATION</a>
+						<a class="dropdown-item" href="./facilities_hostel.php">HOSTELS</a>
+						<a class="dropdown-item" href="./facilities_canteen.php">CANTEEN</a>
+						<a class="dropdown-item" href="./facilities_brows.php">BROWSING CENTER</a>
+						<a class="dropdown-item" href="./facilities_lang.php">LANGUAGE LAB</a>
+						<a class="dropdown-item1" href="./facilities_water.php">WATER PURIFICATION SYSTEM</a>
 					</div>
 					</div>
 				</li>
@@ -116,8 +116,8 @@
 					</a>
 					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
 						<a class="dropdown-item" href="./placement.php">ABOUT T&P</a>
-						<a class="dropdown-item" href="./placement.php">INTERACTION CELL</a>
-						<a class="dropdown-item1" href="./placement.php">OUR RECRUITERS</a>
+						<a class="dropdown-item" href="./placement_interect.php">INTERACTION CELL</a>
+						<a class="dropdown-item1" href="./placement_recruit.php">OUR RECRUITERS</a>
 					</div>
 					</div>
 				</li>
@@ -128,15 +128,14 @@
 					</a>
 					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
 						<a class="dropdown-item" href="./campus.php">EXTRA CURRICULAR ACTIVITIES</a>
-						<a class="dropdown-item" href="./campus.php">CO CURRICULAR ACTIVITIES</a>
-						<a class="dropdown-item" href="./campus.php">ALUMNI ASSOCIATION</a>
-						<a class="dropdown-item" href="./campus.php">AIMS AND OBJECTIVE</a>
-						<a class="dropdown-item" href="./campus.php">ALUMNI REGISTRATION</a>
-						<a class="dropdown-item" href="./campus.php">ALUMNI DIRECTORY</a>
-						<a class="dropdown-item" href="./campus.php">ALUMNI ACTIVITIES</a>
-						<a class="dropdown-item" href="./campus.php">EVENTS</a>
-						<a class="dropdown-item" href="./campus.php">LANGUAGE LAB</a>
-						<a class="dropdown-item1" href="./campus.php">ANTI RAGGING POLICY</a>
+						<a class="dropdown-item" href="./campus_co_curri.php">CO CURRICULAR ACTIVITIES</a>
+						<a class="dropdown-item" href="./campus_alumni.php">ALUMNI ASSOCIATION</a>
+						<a class="dropdown-item" href="./campus_aims.php">AIMS AND OBJECTIVE</a>
+						<a class="dropdown-item" href="./campus_alu_reg.php">ALUMNI REGISTRATION</a>
+						<a class="dropdown-item" href="./campus_alu_dir.php">ALUMNI DIRECTORY</a>
+						<a class="dropdown-item" href="./campus_alu_activ.php">ALUMNI ACTIVITIES</a>
+						<a class="dropdown-item" href="./campus_events.php">EVENTS</a>
+						<a class="dropdown-item1" href="./campus_anti.php">ANTI RAGGING POLICY</a>
 					</div>
 					</div>
 				</li>

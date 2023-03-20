@@ -274,7 +274,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					</div>
 				</div>
 				<div class="w3-img">
-					<img src="images/cse2.jpeg" alt="image" />
+					<img src="images/WhatsApp Image 2023-03-20 at 6.55.12 PM.jpeg" alt="image" />
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -294,7 +294,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<a href="images/g1.jpg" class="b-link-stripe b-animate-go  thickbox">
 
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/ccnGrp.jpg" alt="">
+								<img class="img-responsive gallery_clg" src="images/main block.jpg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -306,7 +306,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g2.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/cse4.jpeg" alt="">
+								<img class="img-responsive gallery_clg" src="images/BLOCK2.jpg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -318,7 +318,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g3.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/ece3.jpeg" alt="">
+								<img class="img-responsive gallery_clg" src="images/hostal .jpg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -330,7 +330,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g4.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/GRPpic.jpg" alt="">
+								<img class="img-responsive gallery_clg" src="images/20221114_115418.jpg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -342,7 +342,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g5.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/eee4.jpeg" alt="">
+								<img class="img-responsive gallery_clg" src="images/canteen1.jpg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -354,7 +354,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g6.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/study.jpg" alt="">
+								<img class="img-responsive gallery_clg" src="images/20221114_114856.jpg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
@@ -592,15 +592,35 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 		<div class="right-contact">
 			<div class="map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28020.860378185134!2d77.36036945398327!3d28.611548049752848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1678093230657!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				<!-- <iframe
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3821.6109981535833!2d81.0520487!3d16.6963385!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3613473fffffff%3A0x4f380aae64ee8309!2sSir%20C%20Ramalinga%20Reddy%20Polytechnic!5e0!3m2!1sen!2sin!4v1679290982425!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>				<!-- <iframe
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5662244.714693903!2d-2.279153484594319!3d46.13545249359953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54a02933785731%3A0x6bfd3f96c747d9f7!2sIndia!5e0!3m2!1sen!2sin!4v1471606088687"
 					frameborder="0" style="border:0" allowfullscreen></iframe> -->
-				<form action="#" method="post">
-					<input placeholder="Name" name="Name" class="name" type="text" required=""><br>
-					<input placeholder="E-mail" name="Name" class="name" type="text" required=""><br>
-					<textarea placeholder="Message"></textarea><br>
-					<input type="submit" value="send message">
+					<?php 
+						if(!empty($_POST['submit'])){
+							$first_name = $_POST['first_name'];
+							$Email = $_POST['Email'];
+							$message = $_POST['message'];
+							$toEmail = "principal.crrpoly@gmail.com";
+
+							$mailHeaders = "Name: " . $first_name .
+							"\r\nEmail: " . $Email .
+							"\r\nmessage: ". $message . "\r\n";
+
+							if(mail($toEmail, $first_name, $mailHeaders)){
+								$message = "Your Information is received successfull !";
+							}
+						}
+					?>
+				<form action="" method="post">
+					<input placeholder="Name" name="first_name" class="name" type="text" required=""><br>
+					<input placeholder="E-mail" name="Email" class="name" type="text" required=""><br>
+					<textarea placeholder="Message" name="message"></textarea><br>
+					<input type="submit" name="submit" value="submit">
+					<?php if(!empty($message)){ ?>
+					<div class="success">
+						<strong style="background-color: red;"><?php echo $message; ?></strong>
+					</div>
+					<?php }?>
 				</form>
 			</div>
 		</div>
