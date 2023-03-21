@@ -109,7 +109,7 @@
 
             <div class="row">
                 <div class="col-md-6">
-        <img src="./images/hostal .JPG"/>
+        <img src="./images/hostal.JPG"/>
 </div>
 <div class="col-md-6">
         <img src="./images/HOSTAL(1).JPG"/>
