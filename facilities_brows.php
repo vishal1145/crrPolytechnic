@@ -106,8 +106,14 @@
             </p>
             </div>
         </div>
+        <div class="col-md-12">
+        <img src="./images/browsing center.JPG"/>
     </div>
     </div>
+   
+    </div>
+
+   
 </div>
     <?php include 'footer.php' ?>
     <script src="./script.js"></script>

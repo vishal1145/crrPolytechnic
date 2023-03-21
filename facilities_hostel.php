@@ -106,6 +106,20 @@
                 water.
             </p>
             </div>
+
+            <div class="row">
+                <div class="col-md-6">
+        <img src="./images/hostal .JPG"/>
+</div>
+<div class="col-md-6">
+        <img src="./images/HOSTAL(1).JPG"/>
+</div>
+    </div>
+    <div class="row" style="margin-top: 10px;">
+                <div class="col-md-6">
+        <img src="./images/hostel.JPG"/>
+</div>
+    </div>
         </div>
     </div>
     </div>

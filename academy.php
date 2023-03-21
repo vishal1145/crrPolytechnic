@@ -90,7 +90,7 @@
                     </tr>
                     <tr>
                         <th scope="row">5</th>
-                        <td>MECHANICAL ENGINEERING</td>
+                        <td>Mechanical Engineering</td>
                         <td>120</td>
                     </tr>
                     <tr>

@@ -106,8 +106,18 @@
                 </p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-6">
+        <img src="./images/classroom2.jpg"/>
+</div>
+<div class="col-md-6">
+        <img src="./images/classroom3.JPG"/>
+</div>
+    </div>
         </div>
+        
        </div>
+      
     </div>
 </div>
     <?php include 'footer.php' ?>
