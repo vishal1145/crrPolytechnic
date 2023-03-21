@@ -108,7 +108,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-        <img src="./images/classroom2.jpg"/>
+        <img src="./images/class_room.JPG"/>
 </div>
 <div class="col-md-6">
         <img src="./images/classroom3.JPG"/>
