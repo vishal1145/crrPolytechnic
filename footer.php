@@ -9,7 +9,7 @@
 <div style="background-color: #0c274d; padding: 48px 20px 28px 48px;" id="contact">
 		<div class="row">
 			<div class="col-md-5 crrfooter">
-				<h1>Sir C.R.R. Polytechnic</h1>
+				<h1>Sir C R Reddy Polytechnic</h1>
 				<p>VATLURU, ELURU,</p>
 				<p>ANDHRA PRADESH 534007</p>
 			</div>
@@ -30,9 +30,7 @@
 			</div>
 			<div class="col-md-2">
 				<h3 class=" mail quick">Mailing Address</h3>
-				<p class="footer_para links-footerDiv">Sir C.R.Reddy College of Engineering
-					Eluru, W.G.Dist. Andhra Pradesh
-					Pin-534007. INDIA.</p>
+				<p class="footer_para links-footerDiv">Sir C.R. Reddy Polytechnic, Vatluru, Eluru, Andhra Pradesh-534007</p>
 				<h3 style="margin-top:12px;" class="quick">Email Address</h3>
 
 				<p class="footer_para links-footerDiv">principal.crrpoly@gmail.com</p>
