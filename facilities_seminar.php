@@ -94,7 +94,7 @@
        <div id="demo">
        <div class="col-md-9">
         <div class="rightside">
-            <h3 class="item_title">Seminar</h3>
+            <h3 class="item_title">Seminar Hall</h3>
             <div class="newClass">
             <p>
                 The institute is provided a very spacious conference hall enabling 300 to 400 students to
