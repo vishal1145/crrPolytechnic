@@ -822,7 +822,7 @@ figure.effect-bubba:hover p {
     letter-spacing: 1px;
 }
 div#simply-countdown-losange {
-    margin: 78px 417px;
+    /* margin: 78px 417px; */
 }
 .simply-section {
     float: left;
@@ -930,6 +930,12 @@ h3.zero,p.zero {
 .social-icons {
     padding: 10px;
     font-size: 23px;
+}
+div#simply-countdown-losange {
+	display: flex;
+    margin: 0;
+    justify-content: center;
+    padding-top: 20px;
 }
 .social-icons i {
     width: 34px;
@@ -1172,7 +1178,7 @@ i.s3{
 		width: 32%;
 	}
 	div#simply-countdown-losange {
-		margin: 78px 342px;
+		/* margin: 78px 342px; */
 	}
 	.left-contact h6 {
 		width: 32%;
@@ -1206,7 +1212,7 @@ i.s3{
 		width: 37%;
 	}
 	div#simply-countdown-losange {
-		margin: 57px 306px;
+		/* margin: 57px 306px; */
 	}
 	.left-contact h6 {
 		width: 31%;
@@ -1251,7 +1257,7 @@ i.s3{
 		line-height: 46px;
 	}
 	div#simply-countdown-losange {
-		margin: 52px 261px;
+		/* margin: 52px 261px; */
 	}
 	.left-contact h6 {
 		width: 33%;
@@ -1341,7 +1347,7 @@ i.s3{
 		font-size: 19px;
 	}
 	div#simply-countdown-losange {
-		margin: 49px 134px;
+		/* margin: 49px 134px; */
 	}
 	.agile-open {
 		padding: 46px 0px;
@@ -1453,7 +1459,7 @@ i.s3{
 		font-size: 0.8em;
 	}
 	div#simply-countdown-losange {
-		margin: 40px 118px;
+		/* margin: 40px 118px; */
 	}
 	.faculty-head h5 {
 		font-size: 33px;
@@ -1573,7 +1579,7 @@ i.s3{
 		font-size: 28px;
 	}
 	div#simply-countdown-losange {
-		margin: 35px 31px;
+		/* margin: 35px 31px; */
 	}
 	.simply-section {
 		margin-right: 14px;
@@ -1638,7 +1644,7 @@ i.s3{
 		line-height: 29px;
 	}
 	div#simply-countdown-losange {
-		margin: 35px 27px;
+		/* margin: 35px 27px; */
 	}
 	.simply-section {
 		margin-right: 8px;
@@ -1808,7 +1814,7 @@ i.s3{
 		height: 136px;
 	}
 	div#simply-countdown-losange {
-		margin: 31px 66px;
+		/* margin: 31px 66px; */
 	}
 	.w3-faculty {
 		padding: 34px 0px;
@@ -1855,7 +1861,7 @@ i.s3{
 		top: 151px;
 	}
 	div#simply-countdown-losange {
-		margin: 31px 31px;
+		/* margin: 31px 31px; */
 	}
 	.left-contact h6 {
 		width: 55%;
@@ -1938,7 +1944,7 @@ i.s3{
 		font-size: 0.8em;
 	}
 	div#simply-countdown-losange {
-		margin: 31px 19px;
+		/* margin: 31px 19px; */
 	}
 	.demo-2 {
 		width: 248px;
@@ -2024,7 +2030,7 @@ i.s3{
 		height: 110px;
 	}
 	div#simply-countdown-losange {
-		margin: 31px 19px;
+		/* margin: 31px 19px; */
 	}
 	.faculty-head h5 {
 		font-size: 27px;
@@ -2118,7 +2124,7 @@ i.s3{
 		margin-right: 4px;
 	}
 	div#simply-countdown-losange {
-		margin: 28px 11px;
+		/* margin: 28px 11px; */
 	}
 	.demo-2 {
 		width: 235px;
@@ -2262,7 +2268,7 @@ i.s3{
 		margin-right: 2px;
 	}
 	div#simply-countdown-losange {
-		margin: 28px 13px;
+		/* margin: 28px 13px; */
 	}
 	.faculty-head h5 {
 		font-size: 26px;
@@ -2462,7 +2468,7 @@ i.s3{
 		font-size: 14px;
 	}
 	div#simply-countdown-losange {
-		margin: 26px 6px;
+		/* margin: 26px 6px; */
 	}
 	span.simply-amount {
 		font-size: 28px;
@@ -2581,7 +2587,7 @@ i.s3{
 		padding: 0.1em 2.4em;
 	}
 	div#simply-countdown-losange {
-		margin: 21px 47px;
+		/* margin: 21px 47px; */
 	}
 	.simply-section {
 		width: 54px;
@@ -2746,7 +2752,7 @@ i.s3{
 		padding-top: 8px;
 	}
 	div#simply-countdown-losange {
-		margin: 21px 25px;
+		/* margin: 21px 25px; */
 	}
 	.simply-section {
 		width: 45px;
