@@ -374,7 +374,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- opening -->
 	<div class="agile-open">
 		<div class="open-head">
-			<h6>C R Reddy Polytechnic</h6>
+			<h6>Sir C R Reddy Polytechnic</h6>
 			<p>“Numbers speak every thing.” </p>
 		</div>
 		<!-- Countdown-timer -->
