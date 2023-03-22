@@ -8,6 +8,8 @@
 	<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- <script src="content/js/jquery.min.js"></script>
+	<script src="content/js/bootstrap.min.js"></script> -->
 	<title>Document</title>
 <style>
 	.barIcon{
@@ -53,11 +55,18 @@
 				<li class="nav-item menu__item">
 					<!-- <a class="nav-link menu__link " href="./academy.php">Academics</a> -->
 					<div class="dropdown show">
-					<a class="nav-link menu__link" href="./academy.php">
+					<a class="nav-link menu__link dropdown-toggle"
+					id="navbarDropdown"
+					 aria-expanded="false"
+					 aria-haspopup="true"
+					 role="button"
+					 data-toggle="dropdown"
+					 href="./academy.php"
+					 >
 					Academics
 						<i class="fa fa-angle-down"></i>
 					</a>
-					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
+					<div class="dropdown-menu forwidth" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="./academy.php">COURSES OFFERED</a>
 						<a class="dropdown-item" href="./academy_curri.php">CURRICILLUM</a>
 						<a class="dropdown-item" href="./academy_result.php">RESULT</a>
@@ -70,11 +79,18 @@
 				<li class="nav-item menu__item">
 					<!-- <a class="nav-link menu__link " href="./department.php">Departments</a> -->
 					<div class="dropdown show">
-					<a class="nav-link menu__link" href="./ceDepartment.php">
+					<a class="nav-link menu__link dropdown-toggle" 
+					href="./ceDepartment.php"
+					id="navbarDropdown"
+					 aria-expanded="false"
+					 aria-haspopup="true"
+					 role="button"
+					 data-toggle="dropdown"
+					 >
 					Departments
 						<i class="fa fa-angle-down"></i>
 					</a>
-					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
+					<div class="dropdown-menu forwidth" aria-labelledby="navbarDropdown">
 						
 						<a class="dropdown-item" href="./ceDepartment.php">COMPUTER ENGINEERING</a>
 						<a class="dropdown-item" href="./eceDepartment.php">ELECTRONICS AND COMMUNICATION ENGINEERING</a>
@@ -90,11 +106,18 @@
 				</li>
 				<li class="nav-item menu__item">
 					<div class="dropdown show">
-					<a class="nav-link menu__link" href="./facilities.php">
+					<a class="nav-link menu__link dropdown-toggle"
+					 href="./facilities.php"
+					 id="navbarDropdown"
+					 aria-expanded="false"
+					 aria-haspopup="true"
+					 role="button"
+					 data-toggle="dropdown"
+					 >
 						Facilities
 						<i class="fa fa-angle-down"></i>
 					</a>
-					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
+					<div class="dropdown-menu forwidth" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="./facilities.php">CLASS ROOMS</a>
 						<a class="dropdown-item" href="./facilities_seminar.php">SEMINAR HALL</a>
 						<a class="dropdown-item" href="./facilities_library.php">LIBRARY</a>
@@ -110,11 +133,18 @@
 				</li>
 				<li class="nav-item menu__item">
 				<div class="dropdown show">
-					<a class="nav-link menu__link" href="./placement.php">
+					<a class="nav-link menu__link dropdown-toggle"
+					 href="./placement.php"
+					 id="navbarDropdown"
+					 aria-expanded="false"
+					 aria-haspopup="true"
+					 role="button"
+					 data-toggle="dropdown"
+					 >
 						Placements
 						<i class="fa fa-angle-down"></i>
 					</a>
-					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
+					<div class="dropdown-menu forwidth" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="./placement.php">ABOUT T&P</a>
 						<a class="dropdown-item" href="./placement_interect.php">INTERACTION CELL</a>
 						<a class="dropdown-item1" href="./placement_recruit.php">OUR RECRUITERS</a>
@@ -123,10 +153,17 @@
 				</li>
 				<li class="nav-item menu__item">
 				<div class="dropdown show">
-					<a class="nav-link menu__link" href="./campus.php">Campus life
+					<a class="nav-link menu__link dropdown-toggle"
+					 id="navbarDropdown"
+					 aria-expanded="false"
+					 aria-haspopup="true"
+					 role="button"
+					 data-toggle="dropdown"
+					 href="./campus.php"
+					 >Campus life
 					<i class="fa fa-angle-down"></i>
 					</a>
-					<div class="dropdown-menu forwidth" aria-labelledby="dropdownMenuLink">
+					<div class="dropdown-menu forwidth" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="./campus.php">EXTRA CURRICULAR ACTIVITIES</a>
 						<a class="dropdown-item" href="./campus_co_curri.php">CO CURRICULAR ACTIVITIES</a>
 						<a class="dropdown-item" href="./campus_alumni.php">ALUMNI ASSOCIATION</a>
@@ -180,6 +217,10 @@ const $dropdown = $(".dropdown");
 					$dropdown.off("mouseenter mouseleave");
 				}
 				});
+
+	// 			$(document).ready(function () {
+    //     $('.dropdown-toggle').dropdown();
+    // });
 </script>
 </body>
 </html>

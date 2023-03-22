@@ -3113,7 +3113,11 @@ td{
 	color: #fff !important;
 	display: none;
 }
-
+@media (min-width:768px){
+	.forwidth{
+		width: 300px !important;
+	}
+}
 @media(max-width:767px){
 	.navbarClgName h2{
 		font-size: 20px;
@@ -3145,13 +3149,16 @@ td{
 	.barIcon{
 		display: block !important;
 	}
+	.links ul li a{
+		text-align: center;
+	}
 }
 .yash{
 	color:red;
 }
-.forwidth{
+/* .forwidth{
 	width: 300px !important;
-}
+} */
 .background{
 	/* background: rgba(238, 238, 238, 0.88); */
 }

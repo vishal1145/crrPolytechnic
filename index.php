@@ -31,7 +31,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		rel="stylesheet">
 	<!-- js -->
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-	<!-- //js -->
 	<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 
 	<script src="js/jquery.chocolat.js"></script>
