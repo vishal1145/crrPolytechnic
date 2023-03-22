@@ -374,13 +374,38 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- opening -->
 	<div class="agile-open">
 		<div class="open-head">
-			<h6>our university opening in</h6>
-			<p>“A university is just a group of buildings gathered around a library.” </p>
+			<h6>C R Reddy Polytechnic</h6>
+			<p>“Numbers speak every thing.” </p>
 		</div>
 		<!-- Countdown-timer -->
 
 		<div class="examples">
-			<div class="simply-countdown-losange" id="simply-countdown-losange"></div>
+			<div class="simply-countdown-losange" id="simply-countdown-losange">
+			<div class="simply-section">
+				<div>
+					<span class="simply-amount">7</span>
+					<span class="simply-word">Departments</span>
+				</div>
+			</div>
+			<div class="simply-section">
+				<div>
+					<span class="simply-amount">1800</span>
+					<span class="simply-word">Studentss</span>
+				</div>
+			</div>
+			<div class="simply-section">
+				<div>
+					<span class="simply-amount">100</span>
+					<span class="simply-word">Staff</span>
+				</div>
+			</div>
+			<div class="simply-section">
+				<div>
+					<span class="simply-amount">1980</span>
+					<span class="simply-word">Estd</span>
+				</div>
+			</div>
+			</div>
 		</div>
 
 		<div class="clearfix"></div>
@@ -389,7 +414,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 		<!-- Custom-JavaScript-File-Links -->
 		<!-- Countdown-Timer-JavaScript -->
-		<script src="js/simplyCountdown.js"></script>
+		<!-- <script src="js/simplyCountdown.js"></script> -->
 		<script>
 			var d = new Date(new Date().getTime() + 48 * 120 * 120 * 2000);
 
