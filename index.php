@@ -318,7 +318,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<div class="col-md-4 col1 gallery-grid">
 						<a href="images/g3.jpg" class="b-link-stripe b-animate-go  thickbox">
 							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/hostal .jpg" alt="">
+								<img class="img-responsive gallery_clg" src="images/HOSTAL(1).jpg" alt="">
 								<figcaption>
 									<h4 class="gal">C.R.R. Polytechnic</h4>
 									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live

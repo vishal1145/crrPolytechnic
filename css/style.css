@@ -829,8 +829,8 @@ div#simply-countdown-losange {
     color: white;
     border-radius: 50%;
     border: 2px solid #9d9d9d;
-    width: 166px;
-    height: 166px;
+    width: 146px;
+    height: 146px;
     margin-right: 18px;
 }
 span.simply-amount {
@@ -1804,8 +1804,8 @@ i.s3{
 		font-size: 17px;
 	}
 	.simply-section {
-		width: 138px;
-		height: 138px;
+		width: 136px;
+		height: 136px;
 	}
 	div#simply-countdown-losange {
 		margin: 31px 66px;
@@ -2020,8 +2020,8 @@ i.s3{
 		font-size: 27px;
 	}
 	.simply-section {
-		width: 128px;
-		height: 128px;
+		width: 110px;
+		height: 110px;
 	}
 	div#simply-countdown-losange {
 		margin: 31px 19px;
@@ -2255,8 +2255,8 @@ i.s3{
 		font-size: 15px;
 	}
 	.simply-section {
-		width: 107px;
-		height: 107px;
+		width: 90px;
+		height: 90px;
 	}
 	.simply-section {
 		margin-right: 2px;
@@ -2471,8 +2471,8 @@ i.s3{
 		font-size: 14px;
 	}
 	.simply-section {
-		width: 94px;
-		height: 94px;
+		width: 90px;
+		height: 90px;
 	}
 	.faculty-head h5 {
 		font-size: 25px;
@@ -2584,14 +2584,14 @@ i.s3{
 		margin: 21px 47px;
 	}
 	.simply-section {
-		width: 116px;
-		height: 116px;
+		width: 56px;
+		height: 56px;
 	}
 	span.simply-amount {
-    font-size: 42px;
+    font-size: 16px;
 	}
 	span.simply-word {
-		font-size: 16px;
+		font-size: 12px;
 	}
 	.simply-section {
 		margin-right: 12px;

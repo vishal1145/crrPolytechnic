@@ -40,7 +40,13 @@
                    <li>
                         <a id="myAnchor" onclick="loadDoc('principle.html')" >
                             <span><i class="fa-solid fa-play"></i></span>
-                            Principal and correspondent
+                            Principal
+                        </a>
+                   </li>
+                   <li>
+                        <a id="myAnchor" onclick="loadDoc('correspondent.html')" >
+                            <span><i class="fa-solid fa-play"></i></span>
+                           Correspondent
                         </a>
                    </li>
                    <li>
