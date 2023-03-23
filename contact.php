@@ -19,15 +19,14 @@
            <div id="demo">
                 <div class="rightside">
                     <h3 class="item_title">Contact Us</h3>
-                        <div class="newClass">
-                            <h3 class="item_title forcolor">Address for Communication:</h3>
-                                <p>Sir C. R. Reddy College of Engineering</p>
-                                    <p>ELURU-534007,W.G.DIST.,A.P.</p>
-                                        <p>PH:- 08812 230840&nbsp;</p>
-                                            <p>FAX:- 08812-224193</p>
-                                                <h3 class="item_title forcolor">Principal:</h3>
-                                                    <h3 class="priSpan">Principal Sri. AKKINENI.SIVA KUMAR,<small> B.E,M.Tech</small></h3>
-                                                        <p>SIR C R REDDY POLYTECHNIC</p>
+                    <div class="newClass">
+                        <h3 class="item_title forcolor">Address for Communication:</h3>
+                        <p>Sir C.R. Reddy Polytechnic,</p>
+                        <p>Vatluru, Eluru,</p>
+                        <p>Andhra Pradesh-534007</p>
+                        <h3 class="item_title forcolor">Principal:</h3>
+                        <h3 class="priSpan">Principal Sri. AKKINENI.SIVA KUMAR,<small> B.E,M.Tech</small></h3>
+                        <p>SIR C R REDDY POLYTECHNIC</p>
           
                         </div>
                     </div>

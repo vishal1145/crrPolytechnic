@@ -986,7 +986,7 @@ i.s3{
     text-transform: uppercase;
     border-bottom: 2px solid red;
     width: 36%;
-    margin-bottom: 14%;
+    margin-bottom: 10%;
 	color: #1ca0de;
 }
 .left-contact ul li {
@@ -1035,7 +1035,7 @@ i.s3{
 .map input[type="submit"] {
     padding: 12px;
     text-align: center;
-    margin: 6px 105px;
+    margin: 6px;
     background: #ce1126;
     color: white;
     border: none;
