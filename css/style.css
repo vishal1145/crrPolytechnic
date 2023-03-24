@@ -3344,7 +3344,7 @@ td{
     font-weight: 400;
     color: #000000;
 	margin-bottom: 30px;
-	text-align: justify !important;
+	/* text-align: justify !important; */
 }
 .forcolor{
 	color: #000080;
@@ -3488,4 +3488,11 @@ td{
 	.class_img{
 		margin-top: 15px !important;
 	}
+}
+.newClass p{
+	text-align: justify;
+}
+.newClass ol li{
+	text-align: justify;
+
 }
