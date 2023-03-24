@@ -3470,3 +3470,21 @@ td{
 		margin-top: 15px !important;
 	}
 }
+
+@media (min-width:375px) and (max-width:667px){
+	.class_img{
+		margin-top: 15px !important;
+	}
+}
+
+@media (min-width:360px) and (max-width:740px){
+	.class_img{
+		margin-top: 15px !important;
+	}
+}
+
+@media (min-width:912px) and (max-width:1368px){
+	.class_img{
+		margin-top: 15px !important;
+	}
+}
