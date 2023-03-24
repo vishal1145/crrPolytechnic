@@ -2947,6 +2947,7 @@ img{
 }
 .links{
 	padding: 0 64px;
+	visibility: visible;
 }
 
 .menu__link:hover,
