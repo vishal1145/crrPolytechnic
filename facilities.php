@@ -113,7 +113,7 @@
         <img src="./images/class_room.JPG"/>
 </div>
 <div class="col-md-6">
-        <img src="./images/classroom3.JPG"/>
+        <img class = "class_img" src="./images/classroom3.JPG"/>
 </div>
     </div>
         </div>

@@ -3464,3 +3464,9 @@ td{
 		margin-top: 15px !important;
 	}
 }
+
+@media (min-width:393px) and (max-width:851px){
+	.class_img{
+		margin-top: 15px !important;
+	}
+}
