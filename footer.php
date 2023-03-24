@@ -7,7 +7,7 @@
 </head>
 <body>
 <div style="background-color: #0c274d; padding: 48px 20px 28px 48px;" id="contact">
-		<div class="row">
+		<div class="row reponsiveFooter">
 			<div class="col-md-5 crrfooter">
 				<h1>Sir C R Reddy Polytechnic</h1>
 				<p>VATLURU, ELURU,</p>
