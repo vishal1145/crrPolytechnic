@@ -29,13 +29,13 @@
                         </a>
                    </li>
                    <li>
-                        <a  id="myAnchor" onclick="loadDoc('eceteachingfaculty.html')">
+                        <a  id="myAnchor" onclick="loadDoc('eceteachingfaculty.php')">
                             <span><i class="fa-solid fa-play"></i></span>
                             ECE Teaching Faculty
                         </a>
                    </li>
                    <li>
-                        <a  id="myAnchor" onclick="loadDoc('ecenonTeachingFaculty.html')">
+                        <a  id="myAnchor" onclick="loadDoc('ecenonTeachingFaculty.php')">
                             <span><i class="fa-solid fa-play"></i></span>
                             ECE-Non Teaching Faculty
                         </a>

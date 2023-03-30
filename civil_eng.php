@@ -29,13 +29,13 @@
                         </a>
                    </li>
                    <li>
-                        <a  id="myAnchor" onclick="loadDoc('civil_tachingfaculty.html')">
+                        <a  id="myAnchor" onclick="loadDoc('civil_tachingfaculty.php')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Civil Teaching Faculty
                         </a>
                    </li>
                    <li>
-                        <a  id="myAnchor" onclick="loadDoc('civil_non-tachingfaculty.html')">
+                        <a  id="myAnchor" onclick="loadDoc('civil_non-tachingfaculty.php')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Civil-Non Teaching Faculty
                         </a>
