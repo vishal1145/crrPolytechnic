@@ -15,7 +15,7 @@ include "connection.php";
     }
 </style>
 <?php
-$forAlMl = "SELECT `sno`, `name of the employee`, `designation`, `qualification`, `phone`, `photos` FROM `facultydetails` WHERE department = 'alml' AND type = 'teachingfaculty'";
+$forAlMl = "SELECT  `id`, `Type`, `sno`, `employee`, `designation`, `qualification`, `phone`, `photos`, `created_at`, `updated_at` FROM `teachers` WHERE department = 'AI&ML' AND Type = 'Teaching'";
 $tableResult = mysqli_query($conn, $forAlMl);
 $heading = "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING DEPARTMENT TEACHING STAFF LIST";
 ?>

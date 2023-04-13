@@ -1,3 +1,4 @@
+<?php include "connection.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -82,23 +83,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 
 	<?php
-	$conn = mysqli_connect("localhost", "root", "", "crrpolytechnic") or die("connection failed");
+	// $conn = mysqli_connect("localhost", "root", "", "crrpolytechnic") or die("connection failed");
 
-	$forScroll = " SELECT `id`, `image-url`, `title`, `subtitle`, `type`, `time` FROM `crrimages` WHERE type = 'Scroll'";
-	$facilities = " SELECT `id`, `image-url`, `title`, `subtitle`, `type`, `time` FROM `crrimages` WHERE type = 'facility'";
-	$gallery = " SELECT `id`, `image-url`, `title`, `subtitle`, `type`, `time` FROM `crrimages` WHERE type = 'gallery'";
-	$news = " SELECT `id`, `image-url`, `title`, `subtitle`, `type`, `time` FROM `crrimages` WHERE type = 'news'";
+
+	$forScroll = " SELECT `id`, `Type`, `Image`, `Title`, `Sub_Title`, `created_at`, `updated_at` FROM `images` WHERE Type = 'Scroll'";
+	$facilities = " SELECT `id`, `Type`, `Image`, `Title`, `Sub_Title`, `created_at`, `updated_at` FROM `images` WHERE Type = 'Facility'";
+	$gallery = " SELECT `id`, `Type`, `Image`, `Title`, `Sub_Title`, `created_at`, `updated_at` FROM `images` WHERE Type = 'Gallery'";
+	$news = " SELECT `id`, `Type`, `Image`, `Title`, `Sub_Title`, `created_at`, `updated_at` FROM `images` WHERE Type = 'News'";
 
 
 	$scrollresult = mysqli_query($conn, $forScroll);
-	// $row1 = mysqli_fetch_array($scrollresult);
-	
 	$faciltyresult = mysqli_query($conn, $facilities);
-	// $row2 = mysqli_fetch_array($scrollresult);
-
 	$galleryresult = mysqli_query($conn, $gallery);
 	$newsresult = mysqli_query($conn, $news)
-
 	?>
 
 	<?php include 'header.php'; ?>
@@ -115,15 +112,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<ul class="rslides" id="slider">
 
 					<?php
-					 while ($row1 = mysqli_fetch_array($scrollresult)) :; 
-					 ?>
-					<?php
-					//  while ($row1['image-url']):;
-					  ?>
-
+					while ($row1 = mysqli_fetch_array($scrollresult)) :;
+					?>
 
 						<li>
-							<div class='slider-img'><img src="<?php echo $row1['image-url'] ?> " class='img-responsive'></div>
+							<div class='slider-img'><img src="<?php echo $image_url ?>/<?php echo $row1['Image'] ?> " class='img-responsive'></div>
 						</li>
 					<?php endwhile; ?>
 
@@ -167,11 +160,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<p>Lorem Ipsum is simply dummy text of the printing and industry.</p>
 			<div class="w3grids">
 
-				<?php while ($row2 = mysqli_fetch_array($faciltyresult)) :; ?>
+				<?php
+				while ($row2 = mysqli_fetch_array($faciltyresult)) :;
+				?>
 					<div class="w3grid col-md-3">
-						<img src="<?php echo $row2[1] ?>" alt="team1" class="">
-						<h5><?php echo $row2['title'] ?></h5>
-						<p><?php echo $row2['subtitle']?></p>
+						<img src="<?php echo $image_url ?>/<?php echo $row2['Image'] ?>" alt="team1" class="">
+						<h5><?php echo $row2['Title'] ?></h5>
+						<p><?php echo $row2['Sub_Title'] ?></p>
 					</div>
 				<?php endwhile; ?>
 			</div>
@@ -189,54 +184,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p>Lorem Ipsum is simply dummy text</p>
 				</div>
 				<div class="grids">
-				<?php while ($row4 = mysqli_fetch_array($newsresult)) :; ?>
-				<div class="grid">
-						<div class="icons">
-							<i class="fa fa-book" aria-hidden="true"></i>
+					<?php while ($row4 = mysqli_fetch_array($newsresult)) :; ?>
+						<div class="grid">
+							<div class="icons">
+								<i class="fa fa-book" aria-hidden="true"></i>
+							</div>
+							<div class="text">
+								<h5><?php echo $row4['Title'] ?></h5>
+								<p><?php echo $row4['Sub_Title'] ?></p>
+							</div>
 						</div>
-						<div class="text">
-							<h5><?php echo $row4['title']?></h5>
-							<p><?php echo $row4['subtitle']?></p>
-						</div>
-					</div>
-				<?php endwhile; ?>
-					<!-- <div class="grid">
-						<div class="icons">
-							<i class="fa fa-book" aria-hidden="true"></i>
-						</div>
-						<div class="text">
-							<h5>ROBOTICS WORKSHOP</h5>
-							<p>Lorem Ipsum is simply industry.</p>
-						</div>
-					</div> -->
-					<!-- <div class="grid">
-						<div class="icons">
-							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-						</div>
-						<div class="text">
-							<h5>ROBOTICS WORKSHOP</h5>
-							<p>Lorem Ipsum is simply industry.</p>
-						</div>
-					</div>
-					<div class="grid">
-						<div class="icons">
-							<i class="fa fa-table" aria-hidden="true"></i>
-						</div>
-						<div class="text">
-							<h5>ROBOTICS WORKSHOP</h5>
-							<p>Lorem Ipsum is simply industry.</p>
-						</div>
-					</div>
-
-					<div class="grid">
-						<div class="icons">
-							<i class="fa fa-laptop" aria-hidden="true"></i>
-						</div>
-						<div class="text">
-							<h5>ROBOTICS WORKSHOP</h5>
-							<p>Lorem Ipsum is simply industry.</p>
-						</div>
-					</div> -->
+					<?php endwhile; ?>
 				</div>
 				<div class="w3-img">
 					<img src="images/WhatsApp Image 2023-03-20 at 6.55.12 PM.jpeg" alt="image" />
@@ -262,89 +220,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<a href="images/g1.jpg" class="b-link-stripe b-animate-go  thickbox">
 
 								<figure class="effect-bubba">
-								<img src="<?php echo $row3[1] ?>" alt="team1" class="">
+									<img src="<?php echo $image_url ?>/<?php echo $row3['Image'] ?>" alt="team1" class="">
 									<figcaption>
-										<h4 class="gal"><?php echo $row3['title']?></h4>
-										<p class="gal1"><?php echo $row3['subtitle']?></p>
+										<h4 class="gal"><?php echo $row3['Title'] ?></h4>
+										<p class="gal1"><?php echo $row3['Sub_Title'] ?></p>
 									</figcaption>
 								</figure>
 							</a>
 						</div>
 
 					<?php endwhile; ?>
-					<!-- <div class="col-md-4 col1 gallery-grid">
-						<a href="images/g1.jpg" class="b-link-stripe b-animate-go  thickbox">
-
-							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="<?php echo $image_gallery['image-url'] ?>" alt="">
-								<figcaption>
-									<h4 class="gal">C.R.R. Polytechnic</h4>
-									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
-										forever.” </p>
-								</figcaption>
-							</figure>
-						</a>
-					</div> -->
-					<!-- <div class="col-md-4 col1 gallery-grid">
-						<a href="images/g2.jpg" class="b-link-stripe b-animate-go  thickbox">
-							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/BLOCK2.jpg" alt="">
-								<figcaption>
-									<h4 class="gal">C.R.R. Polytechnic</h4>
-									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
-										forever.” </p>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="col-md-4 col1 gallery-grid">
-						<a href="images/g3.jpg" class="b-link-stripe b-animate-go  thickbox">
-							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/HOSTAL(1).jpg" alt="">
-								<figcaption>
-									<h4 class="gal">C.R.R. Polytechnic</h4>
-									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
-										forever.” </p>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="col-md-4 col1 gallery-grid">
-						<a href="images/g4.jpg" class="b-link-stripe b-animate-go  thickbox">
-							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/20221114_115418.jpg" alt="">
-								<figcaption>
-									<h4 class="gal">C.R.R. Polytechnic</h4>
-									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
-										forever.” </p>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="col-md-4 col1 gallery-grid">
-						<a href="images/g5.jpg" class="b-link-stripe b-animate-go  thickbox">
-							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/canteen1.jpg" alt="">
-								<figcaption>
-									<h4 class="gal">C.R.R. Polytechnic</h4>
-									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
-										forever.” </p>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="col-md-4 col1 gallery-grid">
-						<a href="images/g6.jpg" class="b-link-stripe b-animate-go  thickbox">
-							<figure class="effect-bubba">
-								<img class="img-responsive gallery_clg" src="images/20221114_114856.jpg" alt="">
-								<figcaption>
-									<h4 class="gal">C.R.R. Polytechnic</h4>
-									<p class="gal1">“Live as if you were to die tomorrow. Learn as if you were to live
-										forever.” </p>
-								</figcaption>
-							</figure>
-						</a>
-					</div> -->
 
 					<div class="clearfix"> </div>
 				</div>

@@ -47,7 +47,7 @@
                         </a>
                    </li> -->
                    <li>
-                        <a id="myAnchor" onclick="loadDoc('eeeStudentInfo.html')">
+                        <a id="myAnchor" onclick="loadDoc('eeeStudentInfo.php')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Student Info
                         </a>

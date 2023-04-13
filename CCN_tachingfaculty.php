@@ -15,7 +15,7 @@ include "connection.php";
     }
 </style>
 <?php
-$forCcn = "SELECT `sno`, `name of the employee`, `designation`, `qualification`, `phone`, `photos` FROM `facultydetails` WHERE department = 'ccn' AND type = 'teachingfaculty'";
+$forCcn = "SELECT  `id`, `Type`, `sno`, `employee`, `designation`, `qualification`, `phone`, `photos`, `created_at`, `updated_at` FROM `teachers` WHERE department = 'CCN' AND Type = 'Teaching'";
 $tableResult = mysqli_query($conn, $forCcn);
 $heading = "COMPUTER COMMUNICATION NETWORK DEPARTMENT TEACHING STAFF LIST";
 

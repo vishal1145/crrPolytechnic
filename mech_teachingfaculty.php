@@ -15,7 +15,7 @@ include "connection.php";
     }
 </style>
 <?php
-$forMe = "SELECT `sno`, `name of the employee`, `designation`, `qualification`, `phone`, `photos` FROM `facultydetails` WHERE department = 'me' AND type = 'teachingfaculty'";
+$forMe = "SELECT  `id`, `Type`, `sno`, `employee`, `designation`, `qualification`, `phone`, `photos`, `created_at`, `updated_at` FROM `teachers` WHERE department = 'ME' AND Type = 'Teaching'";
 $tableResult = mysqli_query($conn, $forMe);
 $heading = "MECHANICAL ENGINEERING DEPARTMENT TEACHING STAFF LIST";
 ?>

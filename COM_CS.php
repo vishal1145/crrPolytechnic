@@ -31,7 +31,7 @@
                    <li>
                         <a  id="myAnchor" onclick="loadDoc('CCN_tachingfaculty.php')">
                             <span><i class="fa-solid fa-play"></i></span>
-                            CCN Faculty
+                            CCN Teaching Faculty
                         </a>
                    </li>
                    <li>
@@ -47,7 +47,7 @@
                         </a>
                    </li> -->
                    <li>
-                        <a id="myAnchor" onclick="loadDoc('CCN_StudentInfo.html')">
+                        <a id="myAnchor" onclick="loadDoc('CCN_StudentInfo.php')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Student Info
                         </a>

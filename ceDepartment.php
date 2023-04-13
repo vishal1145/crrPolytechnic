@@ -52,7 +52,7 @@
                         </a>
                    </li> -->
                    <li>
-                        <a id="myAnchor" onclick="loadDoc('csStudentInfo.html')">
+                        <a id="myAnchor" onclick="loadDoc('csStudentInfo.php')">
                             <span><i class="fa-solid fa-play"></i></span>
                             Student Info
                         </a>

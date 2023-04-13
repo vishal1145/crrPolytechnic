@@ -15,7 +15,7 @@ include "connection.php";
     }
 </style>
 <?php
-$forEee = "SELECT `sno`, `name of the employee`, `designation`, `qualification`, `phone`, `photos` FROM `facultydetails` WHERE department = 'eee' AND type = 'nontechingfaculty'";
+$forEee = "SELECT `id`, `Type`, `sno`, `employee`, `designation`, `qualification`, `phone`, `photos`, `created_at`, `updated_at` FROM `teachers` WHERE department = 'EEE' AND Type = 'Non-Teaching'";
 $tableResult = mysqli_query($conn, $forEee);
 $heading = "ELECTRICAL&ELECTRONICS ENGINEERING DEPARTMENT NON-TEACHING STAFF LIST";
 ?>

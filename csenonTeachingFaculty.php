@@ -9,7 +9,7 @@ include "connection.php";
     }
 </style>
 <?php
-$forCse = "SELECT `sno`, `name of the employee`, `designation`, `qualification`, `phone`, `photos` FROM `facultydetails` WHERE department = 'cse' AND type = 'nonteachingfaculty'";
+$forCse = "SELECT `id`, `Type`, `sno`, `employee`, `designation`, `qualification`, `phone`, `photos`, `created_at`, `updated_at` FROM `teachers` WHERE department = 'CSE' AND Type = 'Non-Teaching'";
 $tableResult = mysqli_query($conn, $forCse);
 $heading = 'COMPUTER ENGINEERING DEPARTMENT NON-TEACHING STAFF LIST';
 ?>

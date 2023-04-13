@@ -13,7 +13,7 @@
     }
 </style>
 <?php
-$forCe = "SELECT `sno`, `name of the employee`, `designation`, `qualification`, `phone`, `photos` FROM `facultydetails` WHERE department = 'ce' AND type = 'nonteachingfaculty'";
+$forCe = "SELECT `sno`, `employee`, `designation`, `qualification`, `phone`, `photos` FROM `teachers` WHERE department = 'CE' AND type = 'Non-Teaching'";
 $tableResult = mysqli_query($conn, $forCe);
 $heading = "CIVIL ENGINEERING DEPARTMENT NON-TEACHING STAFF LIST";
 ?>

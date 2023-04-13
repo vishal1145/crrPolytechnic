@@ -38,11 +38,11 @@ while ($row1 = mysqli_fetch_array($tableResult)) :;
 ?>
     <tr>
         <td><?php echo $index ?></td>
-        <td><?php echo $row1['name of the employee'] ?></td>
+        <td><?php echo $row1['employee'] ?></td>
         <td><?php echo $row1['designation'] ?></td>
         <td><?php echo $row1['qualification'] ?></td>
         <td><?php echo $row1['phone'] ?></td>
-        <td><img src="<?php echo $row1['photos'] ?>" alt="" class="photos"></td>
+        <td><img src="<?php echo $image_url ?>/<?php echo $row1['photos'] ?>" alt="" class="photos"></td>
 
     </tr>
 <?php $index = $index + 1;
