@@ -36,7 +36,7 @@
 $index = 1;
 while ($row1 = mysqli_fetch_array($tableResult)) :;
 ?>
-    <tr>
+    <tr class="table-row">
         <td><?php echo $index ?></td>
         <td><?php echo $row1['employee'] ?></td>
         <td><?php echo $row1['designation'] ?></td>
@@ -47,3 +47,9 @@ while ($row1 = mysqli_fetch_array($tableResult)) :;
     </tr>
 <?php $index = $index + 1;
 endwhile; ?>
+
+<style>
+.table-row td{
+    vertical-align: middle !important;
+}
+</style>
