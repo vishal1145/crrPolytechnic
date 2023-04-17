@@ -187,7 +187,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<?php while ($row4 = mysqli_fetch_array($newsresult)) :; ?>
 						<div class="grid">
 							<div class="icons">
-								<i class="fa fa-book" aria-hidden="true"></i>
+								<!-- <i class="fa fa-book" aria-hidden="true"></i> -->
+								<img src="<?php echo $image_url ?>/<?php echo $row4['Image'] ?>" alt="">
 							</div>
 							<div class="text">
 								<h5><?php echo $row4['Title'] ?></h5>

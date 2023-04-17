@@ -612,10 +612,10 @@ a.menu__link {
 .icons {
     float: left;
 	width: 10%;
-    margin: 34px 0px 39px 35px;
+    margin: 0px 0px 39px 35px;
     text-align: center;
 }
-.icons i {
+.icons img {
     color: white;
     background: #ce1126;
     border-radius: 6px;
@@ -627,7 +627,7 @@ a.menu__link {
 .text {
     float: right;
 	width: 79%;
-    padding-top: 36px;
+    padding-top: 0px !important;
 }
 .grid h5 {
     font-size: 20px;
@@ -1333,7 +1333,7 @@ i.s3{
 	.icons {
 		margin: 20px 0px 40px 35px;
 	}
-	.icons i {
+	.icons img {
 		font-size: 28px;
 		width: 52px;
 		height: 49px;
@@ -1428,7 +1428,7 @@ i.s3{
 	.icons {
 		margin: 12px 0px 34px 16px;
 	}
-	.icons i {
+	.icons img {
 		font-size: 24px;
 		width: 42px;
 		height: 42px;
@@ -1800,7 +1800,7 @@ i.s3{
 	.grid p {
 		width: 96%;
 	}
-	.icons i {
+	.icons img {
 		font-size: 22px;
 		width: 38px;
 		height: 38px;
@@ -1896,7 +1896,7 @@ i.s3{
 		float: none;
 		width: 95%;
 	}
-	.icons i {
+	.icons img {
 		font-size: 28px;
 		width: 50px;
 		height: 50px;
@@ -2223,7 +2223,7 @@ i.s3{
 		padding: 7px 0px;
 		line-height: 26px;
 	}
-	.about h2,.team h3,.text-w3 h4..gallery-top h3, .open-head h6, .faculty-head h5 {
+	.about h2,.team h3,.text-w3 h4, .gallery-top h3, .open-head h6, .faculty-head h5 {
 		font-size: 25px;
 		letter-spacing:1px;
 	}
@@ -2454,7 +2454,7 @@ i.s3{
 		font-size: 21px;
 		letter-spacing: 0px;
 	}
-	.icons i {
+	.icons img {
 		font-size: 23px;
 		width: 46px;
 		height: 46px;
@@ -2589,7 +2589,7 @@ i.s3{
 	.text-w3 {
 		padding: 20px;
 	}
-	.icons i {
+	.icons img {
 		font-size: 21px;
 		width: 42px;
 		height: 42px;
@@ -2731,7 +2731,7 @@ i.s3{
 	.text-w3 h4 {
 		font-size: 21px;
 	}
-	.icons i {
+	.icons img {
 		font-size: 19px;
 		width: 36px;
 		height: 36px;
