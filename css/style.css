@@ -3392,9 +3392,10 @@ td{
     object-fit: cover;
  }
  .photos_obj{
-    height: 350px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+	min-height: 100px;
+	max-height: 350px;
  }
 .forPR{
 	padding-right: 0 !important;
@@ -3495,4 +3496,9 @@ td{
 .newClass ol li{
 	text-align: justify;
 
+}
+@media (min-width: 499px){
+	.photos_obj{
+		object-fit: cover;
+	}
 }
