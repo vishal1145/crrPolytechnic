@@ -72,6 +72,7 @@
 						<a class="dropdown-item" href="./academy_result.php">RESULT</a>
 						<a class="dropdown-item" href="./academy_notif.php">NOTIFICATION</a>
 						<a class="dropdown-item1" href="./academy_polycet.php">POLYCET PREVIOUS PAPERS</a>
+						
 
 					</div>
 					</div>
@@ -98,7 +99,8 @@
 						<a class="dropdown-item" href="./mechDepartment.php">MECHANICAL ENGINEERING</a>
 						<a class="dropdown-item" href="./AI_ML.php">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING ENGINEERING</a>
 						<a class="dropdown-item" href="./COM_CS.php">COMMUNICATION AND COMPUTER NETWORKS ENGINEERING</a>
-						<a class="dropdown-item1" href="./civil_eng.php">CIVIL ENGINEERING</a>
+						<a class="dropdown-item" href="./civil_eng.php">CIVIL ENGINEERING</a>
+						<a class="dropdown-item1" href="./gen_dept.php">GENERAL DEPARTMENT</a>
 
 
 					</div>
