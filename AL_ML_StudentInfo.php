@@ -2,7 +2,7 @@
 include "connection.php";
 
 
-$forCse = "SELECT `id`, `Department`, `Pin_No`, `Unique_No`, `Hall_Ticket_No`, `rank`, `student_name`, `gender`, `caste`, `created_at`, `updated_at` FROM `students` WHERE Department='ALML'";
+$forCse = "SELECT `id`, `Department`, `Pin_No`, `Unique_No`, `Hall_Ticket_No`, `rank`, `student_name`, `gender`, `caste`, `created_at`, `updated_at` FROM `students` WHERE Department='AIML'";
 $tableStudentResult = mysqli_query($conn, $forCse);
 $headingStudent = 'AIML Ist Year ';
 ?>
