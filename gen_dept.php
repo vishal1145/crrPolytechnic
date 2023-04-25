@@ -36,13 +36,13 @@
                             </a>
                         </li>
                         <li>
-                            <a id="myAnchor" onclick="loadDoc('gen_teachingfaculty.html')">
+                            <a id="myAnchor" onclick="loadDoc('gen_teachingfaculty.php')">
                                 <span><i class="fa-solid fa-play"></i></span>
                                 Teaching Faculty
                             </a>
                         </li>
                         <li>
-                            <a id="myAnchor" onclick="loadDoc('gen_nonTeachingFaculty.html')">
+                            <a id="myAnchor" onclick="loadDoc('gen_nonTeachingFaculty.php')">
                                 <span><i class="fa-solid fa-play"></i></span>
                                 Non Teaching Faculty
                             </a>
