@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("mysql-122600-0.cloudclusters.net", "admin", "7NMrKaD4", "crrPolytechnic", "10005") or die("connection failed");
-$base_url = "http://127.0.0.1:8000";
-$image_url  = "http://34.16.138.135:8000/storage";
+$conn = mysqli_connect("localhost", "crReadyPolytechnic", "crReadyPolytechnic", "crrPolytechnicweb") or die("connection failed");
+$base_url = "https://sircrreddypolytechnic.com/";
+$image_url  = "http://admin.sircrreddypolytechnic.com/storage";
 ?>
